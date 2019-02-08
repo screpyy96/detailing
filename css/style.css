@@ -149,7 +149,7 @@ footer .footer-bottom {
   background: var(--primary-color-hover);
 }
 
-}
+
 .btn-secondary {
   background: var(--secondary-color);
 }
@@ -355,7 +355,7 @@ nav ul {
 }
 nav li {
   display: inline;
-  float: left;
+  float: right;
 }
 nav a {
   display: inline-block;
@@ -381,8 +381,9 @@ nav a#openup {
   }
   
   .gallery {
-    margin: 40px 40px;
-    padding-right: 200px;
+    margin: 40px 35px;
+    /* padding-right: 700px; */
+    margin-right: -3000px;
   }
 
   .gallery h3 {
@@ -402,7 +403,6 @@ nav a#openup {
     padding: 30x auto;
   }
   
-
 
   #showcase {
     height: 50vh;
@@ -489,7 +489,5 @@ nav a#openup {
 }
 
 @media screen and (max-height: 580px) {
-  #showcase p.lead {
-  
-  }
+
 }
