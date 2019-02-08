@@ -381,7 +381,8 @@ nav a#openup {
   }
   
   .gallery {
-    margin: 40px 75px;
+    margin: 40px 40px;
+    padding-right: 200px;
   }
 
   .gallery h3 {
