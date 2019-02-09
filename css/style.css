@@ -317,6 +317,14 @@ input {
   text-align: center;
 }
 
+.detalii h2 {
+  text-align: center;
+}
+
+.detalii form {
+  text-align: center;
+}
+
 .butt{
   padding: 30px 40px;
   line-height: 10px;
