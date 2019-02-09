@@ -391,7 +391,8 @@ nav a#openup {
   
   .gallery {
     /* margin: 40px 35px; */
-    padding-right: auto; 
+    padding-right: 39px; 
+    padding-left: auto;
     /* padding-right: 700px; */
 
   }
