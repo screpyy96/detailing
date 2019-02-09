@@ -313,6 +313,10 @@ input {
   color: white;
 }
 
+.detalii {
+  text-align: center;
+}
+
 .butt{
   padding: 30px 40px;
   line-height: 10px;
