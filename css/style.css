@@ -227,7 +227,16 @@ footer .footer-bottom {
   color: #3498db
 }
 /* Map */
+ .bottom {
+   padding: 10px 50px;
+   background: #3498db;
+   border-radius: 20px;
+   color: white;
+ }
 
+ .bottom:hover {
+    background: green;
+ }
 #map {
 height: 400px;
 width: 100%;

@@ -43,6 +43,8 @@ $(function() {
   });
 
 
+//  var buton = document.getElementsByClassName("btn bottom") {
+   
 
   // MAPS Google APi
 
