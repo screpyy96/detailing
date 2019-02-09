@@ -376,7 +376,7 @@ nav ul {
 }
 nav li {
   display: inline;
-  float: right;
+  float: left;
 }
 nav a {
   display: inline-block;
