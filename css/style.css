@@ -361,6 +361,24 @@ input {
   top: -10%;
   left: -10%;
 }
+
+.multe {
+  position: relative;
+ 
+  left: 46%;
+  border: 1px solid #3498db;
+  width: 100px;
+  height: 60px;
+  background: #3498db;
+  border-radius: 20px;
+  padding-bottom: -200px;
+  color: white;
+}
+
+.multe:hover {
+  background: green;
+}
+
 /* Navigation */
 nav {
   height: 40px;
@@ -400,12 +418,14 @@ nav a#openup {
   .hide-on-small {
     display: none;
   }
-  
+  .multe {
+    margin-left: -30px;
+    margin-right: 3px;
+  }
   .gallery {
-    /* margin: 40px 35px; */
-    padding-right: auto; 
-    padding-left: auto;
-    /* padding-right: 700px; */
+    margin: 20px 35px;
+margin-left: 35px
+ 
 
   }
 
@@ -423,7 +443,7 @@ nav a#openup {
   
   .gallery img {
     width: 300px;
-    padding: 30x auto;
+    padding: 30px auto;
   }
   
 
