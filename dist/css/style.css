@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* CSS Variables */
 :root {
   --primary-color: #b90415;
@@ -12,9 +18,9 @@
 body {
   font-family: 'PT Sans', sans-serif;
   background-color: #1d1e22;
-  margin: 0;
   color: #fff;
   line-height: 1.6;
+  margin: 0 auto;
 }
 
 img {
@@ -26,9 +32,6 @@ a {
   color: #ccc;
 }
 
-img {
-  width: 100%;
-}
 /* Section */
 .section {
   padding: 2rem 0;
@@ -78,6 +81,7 @@ section#entertainment {
 #showcase h2 {
   font-size: 2rem;
 }
+
 h1.lead {
   color: black
 }
@@ -138,9 +142,10 @@ footer .footer-bottom {
 
 
 
-.call:hover{
+.call:hover {
   background: white;
 }
+
 .btn-primary {
   background: var(--primary-color);
 }
@@ -149,7 +154,6 @@ footer .footer-bottom {
   background: var(--primary-color-hover);
 }
 
-}
 .btn-secondary {
   background: var(--secondary-color);
 }
@@ -183,36 +187,32 @@ footer .footer-bottom {
 .mt {
   margin-top: 1rem;
 }
+
 /* Gallery */
 
 .gallery {
-  margin: 90px auto ; 
   display: block;
-  height: 70%;
-  width: 70%;
+  margin-left: -5px;
+  overflow: hidden;
+
 }
- img {
+
+.gallery img {
+  justify-content: stretch;
   width: 100%;
-  transition: 1s;
-  padding: 200px auto;
+  margin: px;
 }
 
 
 .gallery h3 {
-  text-align: center;
   background: #b90415;
-  margin-top: -90px;
-}
-.gallery h3:hover {
+  align-content: center;
   text-align: center;
-  background: #d3071b;
-  margin-top: -90px;
+  /* padding: 20px 30px; */
+  margin-bottom: 30px;
 }
 
 
-.gallery img:hover {
-  transform: scale(1.1);
-} 
 
 .butt {
   text-align: center;
@@ -221,18 +221,20 @@ footer .footer-bottom {
   width: 150px;
   border-radius: 10px;
   color: #3498db;
-} 
+}
 
 .butt a {
   color: #3498db
 }
+
 /* Map */
 
 #map {
-height: 400px;
-width: 100%;
-background: white;
+  height: 400px;
+  width: 100%;
+  background: white;
 }
+
 /* pachet */
 .pack h2 {
   background: #1d1e22;
@@ -243,46 +245,53 @@ background: white;
   background: #1d1e22;
   color: white;
 }
-li{
+
+li {
   text-decoration: none;
 }
 
 /* Detalii */
 #map {
-   float: left;
-   margin: 50 auto;
-   color: black;
-   padding-bottom: 30px;
-   padding-top: 100px;
+  float: left;
+  margin: 50 auto;
+  color: black;
+  padding-bottom: 30px;
+  padding-top: 100px;
 }
+
 .detalii {
-  height: 300px;;
+  height: 300px;
+  ;
 }
+
 input {
   height: 30px;
 }
+
 #send {
   background: green;
   border-radius: 20px;
   color: white;
-    padding: 15px;
-    margin-top: 10px;
+  padding: 15px;
+  margin-top: 10px;
 }
 
-#send:hover{
+#send:hover {
   background: rgb(33, 194, 33);
 }
 
 input {
   border-radius: 20px;
-  box-shadow:   -2px  -5px;
-  box-sizing: border-box ;
-  
+  box-shadow: -2px -5px;
+  box-sizing: border-box;
+
 }
+
 /* trimite */
 .detalii {
   padding-bottom: 100px;
 }
+
 .butt {
   background: #2d2d30;
   margin: 30px auto;
@@ -295,7 +304,7 @@ input {
 
 .butt a {
   padding: 20px 40px;
- line-height: -10px;
+  line-height: -10px;
   text-align: center;
 }
 
@@ -304,14 +313,16 @@ input {
   color: white;
 }
 
-.butt{
+.butt {
   padding: 30px 40px;
   line-height: 10px;
   text-align: center;
 }
+
 .social {
   padding-top: 100px;
 }
+
 .butt i {
   line-height: 40px;
   font-size: 24px;
@@ -340,6 +351,7 @@ input {
   top: -10%;
   left: -10%;
 }
+
 /* Navigation */
 nav {
   height: 40px;
@@ -349,14 +361,17 @@ nav {
   position: fixed;
   opacity: .9;
 }
+
 nav ul {
   padding: 0;
   margin: 0;
 }
+
 nav li {
   display: inline;
   float: left;
 }
+
 nav a {
   display: inline-block;
   width: 100px;
@@ -366,6 +381,7 @@ nav a {
   color: #eee;
   text-decoration: none;
 }
+
 nav li:hover {
   background-color: #d3071b;
 }
@@ -379,28 +395,25 @@ nav a#openup {
   .hide-on-small {
     display: none;
   }
-  
+
   .gallery {
-    margin: 40px 75px;
+    display: grid;
+    text-align: center;
   }
 
-  .gallery h3 {
+  .gallery>h3 {
     text-align: center;
     background: red;
-    margin-top: -40px;
+    width: 100%;
+    height: 30px;
+    margin-top: 1px;
   }
 
-  .gallery h3:hover {
-    text-align: center;
-    background: #d3071b;
-    margin-top: -90px;
-  }
-  
+
   .gallery img {
     width: 300px;
-    padding: 30x auto;
   }
-  
+
 
 
   #showcase {
@@ -423,15 +436,18 @@ nav a#openup {
     height: auto;
     border-bottom: 0;
   }
+
   nav ul {
     display: none;
     height: auto;
   }
+
   nav li {
     width: 100%;
     float: left;
     position: relative;
   }
+
   nav a {
     text-align: left;
     width: 100%;
@@ -439,9 +455,11 @@ nav a#openup {
     background: #333;
     border-bottom: 1px solid #1d1e22;
   }
+
   nav a:hover {
     background: #d3071b;
   }
+
   nav a#openup:after {
     content: '|||';
     transform: rotate(-90deg);
@@ -456,6 +474,7 @@ nav a#openup {
     right: 5px;
     top: 20px;
   }
+
   nav a#openup {
     display: block;
     background-color: #1d1e22;
@@ -463,6 +482,7 @@ nav a#openup {
     position: relative;
   }
 }
+
 .cf:before,
 .cf:after {
   content: '';
@@ -488,7 +508,5 @@ nav a#openup {
 }
 
 @media screen and (max-height: 580px) {
-  #showcase p.lead {
-  
-  }
+  #showcase p.lead {}
 }
