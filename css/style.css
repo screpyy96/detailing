@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
-
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
 
 * {
   margin: 0;
@@ -16,7 +15,7 @@
 }
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   background-color: #1d1e22;
   color: #fff;
   line-height: 1.6;
@@ -51,14 +50,13 @@ section#entertainment {
   padding: 10rem 0;
 }
 
-
 /* Showcase */
 #showcase {
   margin: 0;
   padding: 0;
-  background: url("../images/tesla.jpg") no-repeat center/cover;
+  background: url("../images/ds.png") no-repeat center/cover;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   position: relative;
   overflow-y: hidden;
 }
@@ -68,7 +66,7 @@ section#entertainment {
 }
 
 #showcase h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
@@ -77,9 +75,8 @@ section#entertainment {
 }
 
 h1.lead {
-  color: black
+  color: black;
 }
-
 
 /* Footer */
 footer .footer-cols {
@@ -132,9 +129,6 @@ footer .footer-bottom {
   color: #fff;
   display: inline-block;
 }
-
-
-
 
 .call:hover {
   background: white;
@@ -199,19 +193,14 @@ footer .footer-bottom {
   width: 180px;
   height: 200px;
   padding: 0 20px;
-
 }
-
 
 .gallery h3 {
   background: #b90415;
   align-content: center;
   text-align: center;
   margin-bottom: 30px;
-
 }
-
-
 
 .butt {
   text-align: center;
@@ -260,7 +249,6 @@ li {
 
 .detalii {
   height: 300px;
-  ;
 }
 
 input {
@@ -283,7 +271,6 @@ input {
   border-radius: 20px;
   box-shadow: -2px -5px;
   box-sizing: border-box;
-
 }
 
 /* trimite */
@@ -328,8 +315,6 @@ input {
   transition: 0.2s linear;
 }
 
-
-
 .butt::before {
   content: "";
   position: absolute;
@@ -340,7 +325,6 @@ input {
   left: -110%;
   top: 90%;
 }
-
 
 .butt:hover::before {
   animation: aaa 0.7s 1;
@@ -355,7 +339,7 @@ nav {
   background-color: #1d1e22;
   color: #eee;
   position: fixed;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 nav ul {
@@ -411,9 +395,7 @@ nav a#openup {
     display: block;
   }
 
-
-
-  .gallery>h3 {
+  .gallery > h3 {
     text-align: center;
     background: red;
     width: 100%;
@@ -421,12 +403,9 @@ nav a#openup {
     margin-top: 1px;
   }
 
-
   .gallery img {
     width: 230px;
   }
-
-
 
   #showcase {
     height: 50vh;
@@ -473,7 +452,7 @@ nav a#openup {
   }
 
   nav a#openup:after {
-    content: '|||';
+    content: "|||";
     transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     /* IE 9 */
@@ -497,7 +476,7 @@ nav a#openup {
 
 .cf:before,
 .cf:after {
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -520,5 +499,6 @@ nav a#openup {
 }
 
 @media screen and (max-height: 580px) {
-  #showcase p.lead {}
+  #showcase p.lead {
+  }
 }
