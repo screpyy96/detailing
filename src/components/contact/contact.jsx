@@ -2,10 +2,10 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import * as Yup from "yup";
 
-import { ContactWrapper, SendBtn, StyledBox } from "./contact.styled";
+import { ContactWrapper, StyledBox } from "./contact.styled";
 import { Form, Formik } from "formik";
 import { Typography } from "@material-ui/core";
-// import { Button } from '@mui/material';
+
 import { TextField } from "@mui/material";
 import { StyledBtn } from "../subcomponents/subcomponents.styled";
 
@@ -151,7 +151,7 @@ const ContactForm = () => {
                 multiline
                 rows={2}
               />
-              {/* <SendBtn> */}
+            
                 <StyledBtn
                   type="submit"
                   disabled={isSubmitting}
@@ -160,7 +160,7 @@ const ContactForm = () => {
                 >
                   Trimite
                 </StyledBtn>
-              {/* </SendBtn> */}
+          
             </Form>
           )}
         </Formik>
