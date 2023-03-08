@@ -10,9 +10,13 @@ import Pachete from './pages/pachete';
 import Protejare from './components/levels-components/protejare/protejare'
 import { valorificare } from './data/db';
 import { protejare } from './data/protejare';
+import Mentinere from './components/levels-components/mentinere/mentinere';
+import {mentinere} from './data/mentinere'
 
 const title  = "Detailing Auto Suceava - Acasa"
 function App() {
+
+
   return (
     <div className="App">
       <Whatsap />
@@ -24,6 +28,7 @@ function App() {
         <Contact path="/contact" />
         <Valorificare path="/valorificare"  valorificare={valorificare}/>
         <Protejare path="/protejare" protejare={protejare}/>
+        <Mentinere path="/mentinere" mentinere={mentinere}/>
       </Router>
     </div>
   );

@@ -52,9 +52,8 @@ export const DetailsContact = styled.div`
   width: 100%;
   height: auto;
   padding-top: 2rem; 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    height: 100%;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -67,7 +66,7 @@ export const DetailsContactInfo = styled.div`
   word-wrap: break-word;
   width: 100%;
   height: 100%;
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -76,13 +75,10 @@ export const DetailsContactInfo = styled.div`
 
 export const InfoContainer = styled.div`
   display: flex;
-  /* align-items: start */
   flex-direction: column;
-  /* justify-content: center; */
   line-height: 2;
   padding-top: auto;
   width: 40%;
-  /* background: red; */
   transform: translate(0, 1%);
   margin: 0 auto;
   text-align: left;
@@ -100,12 +96,28 @@ export const InfoContainer = styled.div`
     color: black;
     text-align: left;
   }
+
+  @media (max-width: 768px) {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      padding-top: 2rem;
+    }
+     button {
+      width: 100%
+     }
+
+     button:last-child {
+      margin-bottom: 2rem;
+     }
+  }
 `;
 
 export const DirectionBtn = styled.button`
   cursor: pointer;
-  /* margin: 0 auto; */
-
   color: white;
   padding: 13px 17px;
   text-transform: uppercase;

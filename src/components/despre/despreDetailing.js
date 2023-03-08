@@ -46,7 +46,7 @@ const FirstComponent = () => {
               style={{ borderRadius: "10px" }}
             />
             <StyledBtn>
-              <Link style={{textDecoration: "none", color: "black"}}to="/contact">{item.button}</Link>
+              <Link style={{textDecoration: "none", color: "white"}}to="/contact">{item.button}</Link>
             </StyledBtn>
           </div>
         </Paper>

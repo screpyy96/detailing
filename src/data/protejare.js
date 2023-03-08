@@ -11,18 +11,24 @@ export const protejare = [
     button: 'Book your appointment',
     dots: [
       {
-        top: '20',
-        left: '43',
+        top: '12',
+        left: '41',
+        mobileTop: '310',
+        mobileLeft: '320',
         text: 'Unele companii nu protejează farurile, însă credem că este esențial. Singura modalitate de a repara un far ciobit în multe cazuri este înlocuirea acestuia și este o piesă scumpă!'
       },
       {
-        top: '20',
+        top: '11',
         left: '28',
+        mobileTop: '300',
+        mobileLeft: '210',
         text: 'Oglinzile laterale sunt chiar în linia de tragere a pietrelor, a gardurilor vii și chiar a altor mașini. PPF-ul nostru protejează eficient mașina de acest lucru.'
       },
       {
-        top: '20',
-        left: '47',
+        top: '16',
+        left: '44',
+        mobileTop: '370',
+        mobileLeft: '350',
         text: 'Bara de protecție față este una dintre zonele cu cel mai mare impact asupra unei mașini. Este susceptibil la așchii de piatră, zgârieturi și zgârieturi. PPF-ul nostru oferă un scut împotriva acestui lucru.'
       }
     ],
@@ -44,25 +50,30 @@ export const protejare = [
     title: 'Service Specificate',
     subTitle: 'Durata Instalarii: 6-8 ore',
     extraSubtitle: 'include: bara fata, faruri si oglinzi:',
-    imgPath:
-      'https://files.widgetic.com/file/widgetic-uploads/app/6092a03fecb2a1363a8b4569/kp6p004r-2zise6x.png',
+    imgPath: "https://files.widgetic.com/file/widgetic-uploads/app/6092a03fecb2a1363a8b4569/kp6p0oas-436ydfg.png",
     serviceDescription: 'Instalare de folie auto regenerare pe zonele evidentiate',
     price: 'Incepand de la 1000 euro',
     button: 'Book your appointment',
     dots: [
       {
-        top: '20',
-        left: '43',
-        text: 'Unele companii nu protejează farurile, însă credem că este esențial. Singura modalitate de a repara un far ciobit în multe cazuri este înlocuirea acestuia și este o piesă scumpă!'
+        top: '13',
+        left: '27',
+        mobileTop: '310',
+        mobileLeft: '320',
+        text: 'Ușile mașinilor sunt vulnerabile la așchii de piatră, zgârieturi și zgârieturi. Sunt, de asemenea, în pericol din cauza avariilor din parcare. PPF nostru minimizează riscul de deteriorare a vopselei ușilor dumneavoastră. Acest kit include setul complet față și praguri. 2. Protecția acoperișului - Acoperișul unei mașini, în special deasupra parbrizului, este expus riscului de așchii de piatră. Este, de asemenea, o țintă principală pentru varul de păsări și alte precipitații. PPF-ul nostru protejează acoperișurile vopsite și din fibră de carbon. Acest kit include setul complet față și praguri.'
       },
       {
-        top: '30',
-        left: '28',
-        text: 'Oglinzile laterale sunt chiar în linia de tragere a pietrelor, a gardurilor vii și chiar a altor mașini. PPF-ul nostru protejează eficient mașina de acest lucru.'
+        top: '9',
+        left: '25',
+        mobileTop: '300',
+        mobileLeft: '210',
+        text: 'Plafonul unei mașini, în special deasupra parbrizului, este expus riscului de așchii de piatră. Este, de asemenea, o țintă principală pentru varul de păsări și alte precipitații.'
       },
       {
-        top: '40',
-        left: '47',
+        top: '13',
+        left: '4',
+        mobileTop: '370',
+        mobileLeft: '350',
         text: 'Bara de protecție față este una dintre zonele cu cel mai mare impact asupra unei mașini. Este susceptibil la așchii de piatră, zgârieturi și zgârieturi. PPF-ul nostru oferă un scut împotriva acestui lucru.'
       }
     ],
@@ -86,25 +97,17 @@ export const protejare = [
     subTitle: 'Durata Instalarii: 6-8 ore',
     extraSubtitle: 'include: bara fata, faruri si oglinzi:',
     imgPath:
-      'https://files.widgetic.com/file/widgetic-uploads/app/6092a03fecb2a1363a8b4569/kp6p004r-2zise6x.png',
+      'https://files.widgetic.com/file/widgetic-uploads/app/6092a03fecb2a1363a8b4569/kp6p16fl-nn7mab.png',
     serviceDescription: 'Instalare de folie auto regenerare pe zonele evidentiate',
     price: 'Incepand de la 1000 euro',
-    button: 'Book your appointment',
+    button: 'Programeaza-te!',
     dots: [
       {
-        top: '20',
-        left: '43',
-        text: 'Unele companii nu protejează farurile, însă credem că este esențial. Singura modalitate de a repara un far ciobit în multe cazuri este înlocuirea acestuia și este o piesă scumpă!'
-      },
-      {
-        top: '30',
-        left: '28',
-        text: 'Oglinzile laterale sunt chiar în linia de tragere a pietrelor, a gardurilor vii și chiar a altor mașini. PPF-ul nostru protejează eficient mașina de acest lucru.'
-      },
-      {
-        top: '40',
-        left: '47',
-        text: 'Bara de protecție față este una dintre zonele cu cel mai mare impact asupra unei mașini. Este susceptibil la așchii de piatră, zgârieturi și zgârieturi. PPF-ul nostru oferă un scut împotriva acestui lucru.'
+        top: '12',
+        left: '26',
+        mobileTop: '310',
+        mobileLeft: '320',
+        text: 'Mașinile mai vechi, în special cele care sunt construite manual, tind să fie complet unice, fără două exemple identice. În plus, ele tind să nu fie simetrice. Nu tăiem PPF pe mașină, așa că trebuie să proiectăm fiecare secțiune pentru a se potrivi de la zero. Acesta este singurul mod de a vă proteja corespunzător mașina dvs. unică sau clasică.'
       }
     ],
     contentTitle: '/ Ce este Paint Protection Film?',

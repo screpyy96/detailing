@@ -5,12 +5,10 @@ import Tab from '@mui/material/Tab';
 import { Box } from '@mui/material';
 
 export const TabListStyle = styled(TabList)`
-  display: block;
-  '& .MuiTabs-flexContainer {
-    display: block;
-  }' && {
-    display: block;
-  }
+@media screen and (max-width: 768px) {
+  transform: translate(0, 20%);
+  width: 100%;
+}
 `;
 export const TabStyle = styled(Tab)`
   
@@ -20,11 +18,9 @@ export const TabStyle = styled(Tab)`
     }';
 `;
 export const BoxStyled = styled(Box)`
-  transform: translate(0, -4%);
+  transform: translate(0, -2%);
   width: 100%;
   padding: 0
-  /* margin: 0 auto; */
-  // background: white;
   @media screen and (max-width: 768px) {
     transform: translate(0, -1.8%);
     width: 100%;

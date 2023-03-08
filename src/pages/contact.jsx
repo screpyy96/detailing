@@ -24,7 +24,6 @@ const Contact = () => {
 
   return (
     <div style={{marginTop: '1rem'}}>
-      <div>
         <iframe
           title="map"
           srcDoc={`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.3094432496814!2d26.21106101499875!3d47.65898469235204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4734fc012d3a10f5%3A0x2057b68470b413c3!2sDetailing%20Auto%20D%26S!5e0!3m2!1sen!2sro!4v1678187777830!5m2!1sen!2sro" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}
@@ -32,7 +31,6 @@ const Contact = () => {
           allowFullScreen
           loading="lazy"
         ></iframe>
-      </div>
       <DetailsContact>
         <DetailsContactInfo>
           <InfoContainer>

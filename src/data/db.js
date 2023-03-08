@@ -25,15 +25,6 @@ export const cards = [
       'Serviciile noastre de detailing ofer full aspect asupra tratamentelor pentru valorificarea, restaurare si viitoarele mentineri ale masinii',
     backImg: '',
     urlPath: '/mentinere'
-  },
-  {
-    title: 'Personalizare',
-    frontImg:
-      'https://i.shgcdn.com/96d67825-9112-4f67-b360-55c2eb5bcad3/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
-    description:
-      'Serviciile noastre de detailing ofer full aspect asupra tratamentelor pentru valorificarea, restaurare si viitoarele mentineri ale masinii',
-    backImg: '',
-    urlPath: '/personalizare'
   }
 ];
 

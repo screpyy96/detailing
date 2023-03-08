@@ -53,7 +53,7 @@ const NavWrapper = styled.nav`
 const LinkStyle = styled(Link)`
   text-decoration: none;
   display: block;
-  width: 90%;
+  width: 100%;
   list-style-type: none;
   color: black;
 `;

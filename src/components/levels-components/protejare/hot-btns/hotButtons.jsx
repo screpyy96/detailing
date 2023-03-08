@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { HiddenText, TextComponent, RedBtn } from './hotButtons.styled';
 
-const HotBtns = ({data}) => {
+const HotBtns = ({ data }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [showText, setShowText] = useState(false);
 
@@ -12,6 +12,8 @@ const HotBtns = ({data}) => {
           key={index}
           top={btn.top}
           left={btn.left}
+          mobileTop={btn.mobileTop} 
+          mobileLeft={btn.mobileLeft}
           onClick={() => {
             setShowText(!showText);
             setDisplayedText(btn.text);

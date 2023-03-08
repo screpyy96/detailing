@@ -2,7 +2,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(3, 1fr);
 width: 97%;
 margin: 0 auto;
 grid-gap: 10px;
@@ -20,7 +20,7 @@ justify-items: center;
 
 @media screen and (max-width: 768px) {
 .card-wrapper {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px;
   width: 96%;
 }
@@ -39,7 +39,7 @@ justify-items: center;
 
 .front,
 .back {
-  position: absolute;
+  position: absolute; 
   bottom: 0;
   left: 0;
   padding: 1em;

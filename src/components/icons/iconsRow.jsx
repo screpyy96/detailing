@@ -22,10 +22,10 @@ function IconsRow() {
 
   return (
     <div className={classes.iconContainer}>
-      <a rel="noopener noreferrer" href="https://www.facebook.com">
+      <a rel="noopener noreferrer" href="https://www.facebook.comhttps://www.facebook.com/DETAILINGSUCEAVA">
         <FacebookIcon className={classes.icon} />
       </a>
-      <a rel="noopener noreferrer" href="https://www.instagram.com">
+      <a rel="noopener noreferrer" href="https://www.instagram.com/detailingsuceava/">
         <InstagramIcon className={classes.icon} />
       </a>
     </div>

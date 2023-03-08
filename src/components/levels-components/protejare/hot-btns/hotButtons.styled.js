@@ -2,14 +2,24 @@ import styled from 'styled-components';
 
 export const HiddenText = styled.div`
   display: ${({ show }) => (show ? 'block' : 'none')};
+  // display: block;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   border-radius: 5px;
   position: absolute;
-  top: 27%;
-  left: 0%;
+  top: 5%;
+  left: 2%;
   width: 50%;
 
+
+  @media (max-width: 600px) {
+    position: absolute;
+    top: 160px;
+    left: 0%;
+    width: 100%;
+    // height: 200px;
+
+  }
 `;
 export const TextComponent = styled.p`
   color: black;
@@ -27,6 +37,12 @@ export const RedBtn = styled.button`
   left: ${(props) => props.left}%;
   border: 2px solid white;
   animation: pulse 1s infinite;
+
+  /* Mobile positioning */
+  @media (max-width: 600px) {
+    top: ${props => props.mobileTop}px;
+    left: ${props => props.mobileLeft}px;
+  }
 
   @keyframes pulse {
     0% {

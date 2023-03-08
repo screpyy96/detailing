@@ -21,7 +21,7 @@ const BoxWrapper = styled(Box)`
   background-image: url(${(props) => props.image});
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 50vh;
   display: flex;
   align-items: center;
 `;

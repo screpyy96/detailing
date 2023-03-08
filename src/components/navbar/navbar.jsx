@@ -157,9 +157,6 @@ const Navbar = () => {
                         <MenuItem onClick={handleClose}>
                           <LinkStyle to="/mentinere">Mentinere</LinkStyle>
                         </MenuItem>
-                        <MenuItem onClick={handleClose}>
-                          <LinkStyle to="/personalizare">Personalizare</LinkStyle>
-                        </MenuItem>
                       </MenuList>
                     </ClickAwayListener>
                   </Paper>
