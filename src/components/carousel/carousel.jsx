@@ -18,8 +18,8 @@ const Carousele = () => {
         showArrows={false}>
         {poze.map((p, key) => {
           return (
-            <div key={key}>
-              <img src={p} alt="p" style={{ height: '80vh' }} />
+            <div className="inaltime" key={key}>
+              <img src={p} alt="p"  />
             </div>
           );
         })}
