@@ -156,7 +156,7 @@ margin: auto;
 
 export const MapsContainer = styled.div`
  display: flex;
- padding: 3rem 3rem ;
+ padding: 2rem 3rem ;
 
  @media screen and (max-width: 768px) {
   display: flex;

@@ -10,13 +10,19 @@ const FirstComponent = ({ despre }) => {
           key={item.slogan}
           sx={{
             p: 3,
-            display: "flex",
-            flexDirection: { xs: "column", md: "row" },
-            alignItems: "center",
+            display: "grid",
+            gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
+            
             gap: "20px",
           }}
         >
-
+           <ImageDespre
+              src={item.image}
+              alt="Polish Suceava"
+              height="400"
+              width="100%"
+              style={{ borderRadius: "10px" }}
+            />
           <div>
             <Typography variant="h4" sx={{ color: "red", paddingBottom: "2rem"}}>
               {item.slogan}
@@ -33,16 +39,6 @@ const FirstComponent = ({ despre }) => {
             </Typography>
           
           </div>
- 
-            <ImageDespre
-              src={item.image}
-              alt="Polish Suceava"
-              height="400"
-              width="100%"
-              style={{ borderRadius: "10px" }}
-            />
-           
-    
         </Paper>
       ))}
     </div>

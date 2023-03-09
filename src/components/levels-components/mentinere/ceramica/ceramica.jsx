@@ -11,6 +11,7 @@ import { MapsContainer } from "../../protejare/protejare.styled";
 import { DirectionBtn, InfoContainer } from "../../../contact/contact.styled";
 import IconsRow from "../../../icons/iconsRow";
 import { Link } from "@reach/router";
+import Banner from "../../../banner-social/banner";
 
 function CeramicComponent({ data }) {
   const mapStyle = {
@@ -75,6 +76,7 @@ function CeramicComponent({ data }) {
           ))}
         </AditionalDetails>
       </CeramicaWrapper>
+      <Banner/>
       <MapsContainer>
         <InfoContainer>
           <div>

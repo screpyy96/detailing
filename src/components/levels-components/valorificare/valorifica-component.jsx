@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from '@reach/router';
 import React from 'react';
+import Banner from '../../banner-social/banner';
 import { DirectionBtn, InfoContainer } from '../../contact/contact.styled';
 import IconsRow from '../../icons/iconsRow';
 import AccordionText2 from '../accordion/accordion2';
@@ -75,6 +76,7 @@ export const ValorificaComponent = ({ data }) => {
           <ImageComponent style={{width: "100%", height: "400px"}}
           src="https://i.shgcdn.com/8ef12e42-d9f0-486c-aff1-9ac2c3b6963f/-/format/auto/-/preview/3000x3000/-/quality/lighter/"/>
         </ContainerWrapper>
+        <Banner/>
         <MapsContainer >
       <InfoContainer >
             <div >

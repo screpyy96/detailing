@@ -36,7 +36,7 @@ const Contact = () => {
           <InfoContainer>
             <h1>/ D&S Suceava</h1>
             <p>Nicolaie Aritonovici nr 7, </p>
-            <p>Scheia, Suceava</p>
+            <p>Scheia, Suceava, 727525</p>
             <DirectionBtn>
               <a
                 target="_blank"

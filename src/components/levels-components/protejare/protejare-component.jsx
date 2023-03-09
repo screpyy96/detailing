@@ -7,6 +7,7 @@ import AccordionText from "../accordion/accordion";
 import { DirectionBtn, InfoContainer } from "../../contact/contact.styled";
 import { Link } from "@reach/router";
 import IconsRow from "../../icons/iconsRow";
+import Banner from "../../banner-social/banner";
 
 const ProtejareComponent = ({ data }) => {
 
@@ -69,6 +70,7 @@ const ProtejareComponent = ({ data }) => {
         <PC.ButtonsWhite variant="contained">After Car Instruction</PC.ButtonsWhite>
         <PC.ButtonsWhite variant="contained">D&S Garantie</PC.ButtonsWhite>
       </div> */}
+      <Banner/>
       <PC.MapsContainer >
       <InfoContainer >
             <div >

@@ -15,9 +15,8 @@ const FirstComponent = () => {
           key={item.slogan}
           sx={{
             p: 3,
-            display: "flex",
-            flexDirection: { xs: "column", md: "row" },
-            alignItems: "center",
+            display: "grid",
+            gridTemplateColumns: { xs: "1fr", md: "1fr 1fr" },
             gap: "20px",
             padding: "2rem",
           }}

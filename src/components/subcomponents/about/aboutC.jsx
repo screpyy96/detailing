@@ -21,7 +21,7 @@ export const AboutC = ({ about }) => {
             <p>{about.subText}</p>
           </StyledText>
           <StyledBtn>
-            <Link style={{ textDecoration: "none", color: "white" }} to="/despre">
+            <Link style={{ textDecoration: "none", color: "white" }} to="/valorificare">
               {about.button}
             </Link>
           </StyledBtn>
