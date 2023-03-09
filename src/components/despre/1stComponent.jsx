@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography, Paper } from "@mui/material";
+import { ImageDespre } from "./1stComponent.styled";
 
 const FirstComponent = ({ despre }) => {
   return (
@@ -15,13 +16,7 @@ const FirstComponent = ({ despre }) => {
             gap: "20px",
           }}
         >
-          <img
-            src={item.image}
-            alt="Topaz Detailing"
-            height="400"
-            width="auto"
-            style={{ borderRadius: "10px" }}
-          />
+
           <div>
             <Typography variant="h4" sx={{ color: "red", paddingBottom: "2rem"}}>
               {item.slogan}
@@ -36,7 +31,18 @@ const FirstComponent = ({ despre }) => {
             <Typography variant="body1" sx={{ mt: 2 }}>
               {item.scop}
             </Typography>
+          
           </div>
+ 
+            <ImageDespre
+              src={item.image}
+              alt="Polish Suceava"
+              height="400"
+              width="100%"
+              style={{ borderRadius: "10px" }}
+            />
+           
+    
         </Paper>
       ))}
     </div>

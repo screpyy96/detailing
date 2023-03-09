@@ -1,7 +1,6 @@
 export const despre = [
   {
-    image:
-      "https://i.shgcdn.com/291a62ce-a796-4217-b48c-1a840d852f4d/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+    image:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/322108642_1548216295665582_5875867619231913169_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ajAv5_YI6UQAX-wAzqh&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfBUzBvgg0yuwMe1S6doSXA8v5wHrz9NkdmW0bDpEaNu0A&oe=640E6978",
     descriere:
       "Detailing Auto Suceava este cel mai exclusivist specialist în film de protecție a vopselei și a detaliilor din Romania, care se ocupă de cel mai mare volum de supermașini din întreaga lume.",
     facilitati:

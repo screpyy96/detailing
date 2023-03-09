@@ -26,19 +26,20 @@ const useStyles = makeStyles((theme) => ({
         transform: "perspective(100px) rotateX(30deg)",
         backgroundColor: "#e6e4e4",
         [theme.breakpoints.down("xs")]: {
-          transform: "perspective(25px) rotateX(8deg)",
+          transform: "perspective(0) rotateX(0)",
         },
   
         "&:first-child": {
           marginLeft: "2rem",
           [theme.breakpoints.down("xs")]: {
-            marginLeft: "1rem",
+            marginLeft: "0",
           },
         },
         "&:last-child": {
           marginRight: "2rem",
           [theme.breakpoints.down("xs")]: {
-            marginRight: "1rem",
+            marginRight: "0",
+           paddingBottom: "1rem"
           },
         },
       },
@@ -75,7 +76,7 @@ const Valorificare = ({ valorificare }) => {
   return (
     <div>
       <Hero data="Valorificare |  D&S Suceava" image={image}/>
-      <BoxStyled sx={{ typography: 'body1' }} style={{transform: "translate(0, -4.8%)"}}>
+      <BoxStyled sx={{ typography: 'body1' }} style={{transform: "translate(0, -2%)"}}>
         <TabContext value={value}>
           <BoxStyled sx={{ borderBottom: 1, borderColor: 'divider' }}>
             {isMobile ? (

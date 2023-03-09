@@ -1,17 +1,16 @@
 import { Typography } from "@material-ui/core";
-import { ContainerWrapper, ServiciiContainer, ExteriorWrapper, MonthsPlan, MonthItem } from "./mentinere.styled";
+import { ContainerWrapper, ServiciiContainer, ExteriorWrapper, MonthsPlan, MonthItem, FlexContainer } from "./mentinere.styled";
 
 
 const MentinereComponent = ({ data }) => {
-    console.log(data.monthsPlan)
     return (
-        <div>
+        <>
             <div style={{ textAlign: "center" }}>
-                <Typography style={{color: "red", padding: "2rem", fontSize: "2rem"}}>{data.title}</Typography>
+                <Typography style={{ color: "red", padding: "2rem", fontSize: "2rem" }}>{data.title}</Typography>
             </div>
             <ContainerWrapper>
                 <ServiciiContainer>
-                    <div style={{ paddingTop: "3rem", paddingLeft: "2rem", width: "70%" }}>
+                    <FlexContainer>
                         <h3 >{data.subTitle}</h3>
                         <p>{data.serviceDescription}</p>
                         <br />
@@ -20,7 +19,7 @@ const MentinereComponent = ({ data }) => {
                         <p>{data.serviceDescription3}</p>
                         <br />
                         <strong>{data.serviceDescription3Bold}</strong>
-                    </div>
+                    </FlexContainer>
                     <div >
                         <img src={data.imgPath} alt="mentinere Suceava" />
                     </div>
@@ -28,7 +27,7 @@ const MentinereComponent = ({ data }) => {
                 <ExteriorWrapper>
                     <Typography>{data.contentTitle}</Typography>
                     <br />
-                    <strong>{data.subTitleExterior}</strong>
+                    <span style={{ paddingBottom: "2rem" }}><strong>{data.subTitleExterior}</strong></span>
                     <br />
                     <ul>
                         <li>{data.desc1}</li>
@@ -48,18 +47,18 @@ const MentinereComponent = ({ data }) => {
 
 
             </ContainerWrapper>
-                <MonthsPlan>
-                    {data.planLunar.map((i, title) => {
-                        return (
-                            <MonthItem key={title}>
-                                <h3 style={{color: "red", paddingBottom: "1rem", fontSize: "20px"}}>{i.title}</h3>
-                                <p>{i.desc}</p>
-                            </MonthItem>
-                        );
-                    })}
-                </MonthsPlan>
+            <MonthsPlan>
+                {data.planLunar.map((i, title) => {
+                    return (
+                        <MonthItem key={title}>
+                            <h3 style={{ color: "red", paddingBottom: "1rem", fontSize: "20px" }}>{i.title}</h3>
+                            <p>{i.desc}</p>
+                        </MonthItem>
+                    );
+                })}
+            </MonthsPlan>
 
-        </div>
+        </>
     )
 }
 

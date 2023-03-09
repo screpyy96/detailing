@@ -42,7 +42,7 @@ const FirstComponent = () => {
               src={item.image}
               alt="Topaz Detailing"
               height="400"
-              width="auto"
+              width="100%"
               style={{ borderRadius: "10px" }}
             />
             <StyledBtn>

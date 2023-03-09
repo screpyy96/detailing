@@ -128,7 +128,8 @@ const ListItemStyle = styled(ListItem)`
 
 const AppBarStyled = styled(AppBar)`
   @media screen and (max-width: 768px) {
-    position: fixed;
+    position: static;
+    top: 0;
   }
 `;
 

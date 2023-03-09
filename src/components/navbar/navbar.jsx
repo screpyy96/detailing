@@ -39,7 +39,11 @@ const useStyles = makeStyles((theme) => ({
   logo: {
     flexGrow: '1',
     cursor: 'pointer',
-    color: 'black'
+    color: 'black',
+    fontSize: "2.1rem",
+    '@media (max-width: 600px)': {
+      fontSize: '26px'
+    }
   },
   navbar: {
     background: 'white'
@@ -98,7 +102,7 @@ const Navbar = () => {
     <AppBarStyled position="static" className={classes.navbar}>
       <CssBaseline />
       <Toolbar>
-        <Typography variant="h4" className={classes.logo}>
+        <Typography variant="h1" className={classes.logo}>
           Detailing Auto Suceava
         </Typography>
         {isMobile ? (

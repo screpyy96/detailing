@@ -18,26 +18,26 @@ const useStyles = makeStyles((theme) => ({
       "& .MuiPaper-root": {
         top: "100px",
         right: "30px",
-        marginLeft: theme.spacing(1),
+        // marginLeft: theme.spacing(1),
       },
       "& .MuiTab-root": {
         border: "1px solid #E1E1E1",
         transform: "perspective(100px) rotateX(30deg)",
         backgroundColor: "#e6e4e4",
         [theme.breakpoints.down("xs")]: {
-          transform: "perspective(25px) rotateX(8deg)",
+          transform: "perspective(25px) rotateX(0)",
         },
   
         "&:first-child": {
           marginLeft: "2rem",
           [theme.breakpoints.down("xs")]: {
-            marginLeft: "1rem",
+            marginLeft: "0",
           },
         },
         "&:last-child": {
           marginRight: "2rem",
           [theme.breakpoints.down("xs")]: {
-            marginRight: "1rem",
+            marginRight: "0",
           },
         },
       },

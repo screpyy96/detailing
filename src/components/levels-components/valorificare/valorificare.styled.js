@@ -11,11 +11,15 @@ export const TabListStyle = styled(TabList)`
 }
 `;
 export const TabStyle = styled(Tab)`
-  
-    '& .MuiTabs-flexContainer {
-      display: block;
-  
-    }';
+  // transform: perspective(0) rotateX(0);  
+
+  & .MuiTab-wrapper {
+    transform: perspective(0) rotateX(0);  
+  }
+
+  & .MuiTabs-flexContainer {
+    display: block;
+  }
 `;
 export const BoxStyled = styled(Box)`
   transform: translate(0, -2%);
@@ -28,12 +32,14 @@ export const BoxStyled = styled(Box)`
 `;
 
 export const ContainerWrapper = styled.div`
+// margin-top: 3rem;
   display: grid;
   background: white;
-  grid-template-columns: 500px auto;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
+  padding-top: 2rem;
   @media screen and (max-width: 768px) {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
   }
 `;
 

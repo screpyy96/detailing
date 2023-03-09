@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {
   Divider,
@@ -34,20 +34,24 @@ const useStyles = makeStyles(() => ({
 }));
 
 function DrawerComponent() {
-  const [open] = useState(false);
-  const anchorRef = useRef(null);
+  const classes = useStyles();
+  const [openDrawer, setOpenDrawer] = useState(false);
 
-  // return focus to the button when we transitioned from !open -> open
-  const prevOpen = useRef(open);
+  const handleToggleMenu = useCallback(() => {
+    setOpenDrawer(prevOpenDrawer => !prevOpenDrawer);
+  }, []);
+
+  const anchorRef = useRef(null);
+  const prevOpen = useRef(openDrawer);
+
   useEffect(() => {
-    if (prevOpen.current === true && open === false) {
+    if (prevOpen.current && !openDrawer) {
       anchorRef.current.focus();
     }
 
-    prevOpen.current = open;
-  }, [open, anchorRef]);
-  const classes = useStyles();
-  const [openDrawer, setOpenDrawer] = useState(false);
+    prevOpen.current = openDrawer;
+  }, [openDrawer]);
+
   return (
     <>
       <Drawer anchor="right" open={openDrawer} onClose={() => setOpenDrawer(false)}>
@@ -83,7 +87,7 @@ function DrawerComponent() {
             </AccordionSummary>
             <AccordionDetails>
               <MenuList
-                autoFocusItem={open}
+                autoFocusItem={openDrawer}
                 id="composition-menu"
                 aria-labelledby="composition-button">
                 <Divider />
@@ -111,10 +115,11 @@ function DrawerComponent() {
           <Divider />
         </List>
       </Drawer>
-      <IconButton onClick={() => setOpenDrawer(!openDrawer)} className={classes.icon}>
+      <IconButton onClick={handleToggleMenu} className={classes.icon} ref={anchorRef}>
         <MenuIcon />
       </IconButton>
     </>
   );
 }
-export default DrawerComponent;
+
+export default React.memo(DrawerComponent);

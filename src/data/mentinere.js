@@ -1,6 +1,6 @@
 export const mentinere = [
   {
-    id: '1',
+    id: 1,
     title: 'Wash Option Plans',
     subTitle: 'Wash Plan Details',
     imgPath:"https://i.shgcdn.com/0ac37343-348c-42a4-be54-5482fa41e95e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
@@ -33,11 +33,10 @@ export const mentinere = [
     ]
   },
   {
-    id: '2',
+    id: 2,
     title: 'Ceramic Coating',
-    imgPath:
-      'https://files.widgetic.com/file/widgetic-uploads/app/6092a03fecb2a1363a8b4569/kp6p004r-2zise6x.png',
-      price: "1000 RON",
+    imgPath: "https://i.shgcdn.com/750dd845-469f-47c2-9090-5f272a1d0dcf/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      price: "De la 1000 RON",
     titleService: "GTechniq HALO",
     subtitleServiceCeramic: "Crystal Serum Ultra features:",
     serviceDescription: 'Premier quality product that is designed for ceramic coating on top of PPF and vinyl, especially. It is a chemically bonding, ultra-dense, flexible coating that becomes the permanent surface of the film or wrap and therefore protects it from the elements a car faces on a daily basis. It makes your car easier to maintain, preventing dirt ingression, and adding UV protection. (Please note this does not include wheels, glass, or interior).',
@@ -54,7 +53,7 @@ export const mentinere = [
 
     planLunar: [
       { title: "L1 Smart Fabric AD", desc: "Antibacterial; Anti mould and mildew; Highly oil and water repellent. Makes ordinary fabrics waterproof and easy to clean. Use it to prevent soaking, swelling or rotting on any fabric. I1 coat each fabric fibre individually, leaving the texture unaffected, allowing the material to breathe. stale air will still be able to escape, while repelling water and and oil-based liquids." },
-      { title: "", desc: "Being alcohol based ensures a much deeper penetration of the active ingredient giving an I1 treated surface much better durability and overall performance." },
+      { title: "",desc: "Being alcohol based ensures a much deeper penetration of the active ingredient giving an I1 treated surface much better durability and overall performance." },
       { title: "L1 Leather Guard AB", desc: "Leather Guard forms a durable abrasion resistant matte finish which offers the best ever protection against abrasion damage, UV rays, dye transfer and other discolouration." },
     ]
   }
