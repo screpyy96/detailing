@@ -34,10 +34,12 @@ const ProtejareComponent = ({ data }) => {
           <PC.Title>{data.title}</PC.Title>
           <PC.Subtitle>{data.subTitle}</PC.Subtitle>
           <PC.ExtraSubtitle>{data.extraSubtitle}</PC.ExtraSubtitle>
-          <PC.Title>{data.title1}</PC.Title>
           <PC.ExtraSubtitle>{data.serviceDescription}</PC.ExtraSubtitle>
-          <PC.Price>{data.price}</PC.Price>
+          <div>
+          <PC.Price>{data.price}</PC.Price> 
           <PC.BookBtn>{data.button}</PC.BookBtn>
+
+          </div>
         </PC.SecondHalf>
       </PC.ContainerWrapper>
       <Hero  image={image} />

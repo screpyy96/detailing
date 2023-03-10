@@ -16,8 +16,11 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '3rem',
   },
   tiktok: {
-    fontSize: '2.5rem',
-    color: "black"
+    fontSize: '2.4rem',
+    color: "black",
+    padding: "1rem",
+    marginTop: "-3px",
+    
   }
 }));
 
@@ -32,7 +35,7 @@ function IconsRow() {
       <a rel="noopener noreferrer" href="https://www.instagram.com/detailingsuceava/">
         <InstagramIcon className={classes.icon} />
       </a>
-      <a rel="noopener noreferrer" href="https://www.tiktok.com/detailingsuceava/">
+      <a rel="noopener noreferrer" href="https://www.tiktok.com/detailingsuceavadns/">
         <FontAwesomeIcon className={classes.tiktok} icon={faTiktok} />
       </a>
     </div>

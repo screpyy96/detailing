@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Paper } from "@mui/material";
 import { ImageDespre } from "./1stComponent.styled";
 
-const FirstComponent = ({ despre }) => {
+const FirstComponent = ({ despre, hala }) => {
   return (
     <div>
       {despre.map((item) => (
@@ -17,7 +17,7 @@ const FirstComponent = ({ despre }) => {
           }}
         >
            <ImageDespre
-              src={item.image}
+              src={hala}
               alt="Polish Suceava"
               height="400"
               width="100%"

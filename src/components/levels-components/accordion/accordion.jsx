@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     width: "90%",
     margin: "0 auto",
     // transform: "translate(0, 20%)"
-    padding: "5rem",
+    padding: "2rem 0",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
       margin: "0 auto"

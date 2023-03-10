@@ -68,7 +68,7 @@ const ContactForm = () => {
   return (
     <ContactWrapper>
       <StyledBox>
-      <Typography style={{ color: "black", paddingBottom: "20px" }}>
+      <Typography style={{ color: "black", padding: "2rem" }}>
         REQUEST A CALL BACK OR BOOKING
       </Typography>
         <Formik

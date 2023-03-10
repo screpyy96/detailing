@@ -27,9 +27,12 @@ height: 100%;
 export const SecondHalf = styled.div`
   border: 1px solid grey;
   padding: 0 2rem;
-  /* height: 83%; */
-  width: 90%;
+  // height: 83%; 
+  width: 70%;
   margin: 0  auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 `;
 
 export const Subtitle = styled.p`

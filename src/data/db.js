@@ -49,7 +49,7 @@ export const subcomponents = [
 
 export const valorificare = [
   {
-    id: '1',
+    id: 1,
     title: 'Level 1 - Protejarea Detaliilor',
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
     header: '21 DE STAGII DESPRE PROCESUL DE CURATARE:',
@@ -98,7 +98,7 @@ export const valorificare = [
     ]
   },
   {
-    id: '2',
+    id: 2,
     title: 'Level 2 - Detaliu de îmbunătățire',
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
     header: 'PROCESUL DE CURĂȚARE A Detailing Auto Suceava ÎN MAI MULTE ETAPE ETAPE, INCLUSIV:',
@@ -137,7 +137,7 @@ export const valorificare = [
     ]
   },
   {
-    id: '3',
+    id: 3,
     title: 'Level 3 - Corectarea Detaliilor',
     subTitle: ' CORECTAREA VOPSEA – 80-95% FACTOR DE CORECTARE',
     imgPath: "https://i.shgcdn.com/f432b83b-7fb0-4201-8036-08b66e7933c0/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
@@ -182,7 +182,7 @@ export const valorificare = [
   },
 
   {
-    id: '4',
+    id: 4,
     title: 'Level 4 - Detaliu suprem',
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
     // header: '21 stagii DESPRE PROCESUL DE CURATARE:',
@@ -224,7 +224,7 @@ export const valorificare = [
     ]
   },
   {
-    id: '5',
+    id: 5,
     title: 'Level 5 - Detaliu semnătură',
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
     header: 'Indepartarea distorsiunii vopselei PANA LA 100% FACTOR DE CORECTARE',
@@ -261,7 +261,7 @@ export const valorificare = [
     ]
   },
   {
-    id: '6',
+    id: 6,
     title: 'Level 6 - Protejarea Detaliilor',
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
     header: '21 stagii DESPRE PROCESUL DE CURATARE:',

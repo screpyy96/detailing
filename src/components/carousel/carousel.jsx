@@ -15,11 +15,14 @@ const Carousele = () => {
         showStatus={false}
         infiniteLoop={true}
         autoPlay={true}
-        showArrows={false}>
+        showArrows={false}
+        stopOnHover={true}
+        onSwipeMove={false}>
         {poze.map((p, key) => {
           return (
             <div className="inaltime" key={key}>
-              <img src={p} alt="p"  />
+              <img src={p} alt="Detailing Suceava" loading="lazy" width="300" height="200" />
+              
             </div>
           );
         })}

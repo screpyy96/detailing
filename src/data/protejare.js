@@ -7,7 +7,7 @@ export const protejare = [
     imgPath:
       'https://files.widgetic.com/file/widgetic-uploads/app/6092a03fecb2a1363a8b4569/kp6p004r-2zise6x.png',
     serviceDescription: 'Instalare de folie auto regenerare pe zonele evidentiate',
-    price: 'Incepand de la 1000 euro',
+    price: 'Incepand de la 500 euro',
     button: 'Book your appointment',
     dots: [
       {
@@ -25,7 +25,7 @@ export const protejare = [
         text: 'Oglinzile laterale sunt chiar în linia de tragere a pietrelor, a gardurilor vii și chiar a altor mașini. PPF-ul nostru protejează eficient mașina de acest lucru.'
       },
       {
-        top: '16',
+        top: '15',
         left: '44',
         mobileTop: '370',
         mobileLeft: '350',

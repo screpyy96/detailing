@@ -8,6 +8,7 @@ import Banner from '../components/banner-social/banner';
 import { MapsContainer } from '../components/levels-components/protejare/protejare.styled';
 import { DirectionBtn, InfoContainer } from '../components/contact/contact.styled';
 import IconsRow from '../components/icons/iconsRow';
+import hala from '../data/images/garaj-suceava-detailing.jpg'
 import { Link } from '@reach/router';
 
 const Despre = () => {
@@ -28,7 +29,7 @@ const Despre = () => {
   return (
     <div>
       <Hero style={{height: "50%"}}data="Despre | D&S Detailing" image={image} />
-      <FirstComponent despre={despre}/>
+      <FirstComponent despre={despre} hala={hala}/>
       <DespreDetailing despre={despre}/>
       <Banner/>
       <MapsContainer >

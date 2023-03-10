@@ -9,11 +9,10 @@ export const ContactWrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* height: 71vh; */
-  /* background-color: #f5f5f5; */
+  background-color: #f5f5f5; 
   padding: 0px;
   margin: 0px;
-  /* min-height: 89vh; */
+  // height: 100%;
 `;
 
 export const SendBtn = styled.div`
@@ -36,7 +35,6 @@ export const StyledBox = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* height: 86%; */
 
   padding: 10px;
   margin: 0px;
@@ -104,14 +102,15 @@ export const InfoContainer = styled.div`
     justify-content: center;
 
     h1 {
-      padding-top: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 0;
     }
      button {
       width: 100%
      }
 
      button:last-child {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
      }
   }
 `;

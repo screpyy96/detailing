@@ -39,7 +39,7 @@ const FirstComponent = () => {
           <div>
             <img
               src={item.image}
-              alt="Topaz Detailing"
+              alt="Detailing Suceava"
               height="400"
               width="100%"
               style={{ borderRadius: "10px" }}

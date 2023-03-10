@@ -3,10 +3,16 @@
 }
 
 .inaltime {
-  height: 70vh
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .inaltime img {
-  height: 70vh
-
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
