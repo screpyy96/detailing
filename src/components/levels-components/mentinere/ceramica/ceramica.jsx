@@ -6,6 +6,7 @@ import {
   TitleCeramic,
   GridContainer,
   AditionalDetails,
+  ParagraphSize,
 } from "../mentinere.styled";
 import { MapsContainer } from "../../protejare/protejare.styled";
 import { DirectionBtn, InfoContainer } from "../../../contact/contact.styled";
@@ -30,11 +31,9 @@ function CeramicComponent({ data }) {
           <img src={data.imgPath} alt="" />
         </div>
         <div style={{ borderBottom: "2px solid red" }}>
-          <p
-            style={{ textAlign: "center", fontSize: "1.8rem", padding: "2rem" }}
-          >
+          <ParagraphSize>
             {data.price}
-          </p>
+          </ParagraphSize>
         </div>
         <GridContainer>
           <div>

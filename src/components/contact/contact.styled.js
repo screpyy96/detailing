@@ -130,4 +130,8 @@ export const DirectionBtn = styled.button`
   margin-top: 2rem;
   border: 0;
   width: 71%;
+
+  @media screen and (max-width: 768px){
+    margin-top: 1rem;
+  }
 `;

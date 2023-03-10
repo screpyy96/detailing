@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     flexDirection: "column",
     // transform: "translate(0, 20%)"
-    paddingTop: "5rem",
+    // padding: "2rem",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
       margin: "0 auto"

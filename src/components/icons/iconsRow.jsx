@@ -2,19 +2,23 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
-// import TikTokIcon from '@material-ui/icons/TikTok';
+import { faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const useStyles = makeStyles((theme) => ({
   iconContainer: {
     display: 'flex',
     alignItems: 'center'
-
   },
   icon: {
     margin: theme.spacing(1),
     color: 'black',
     fontSize: '3rem',
   },
+  tiktok: {
+    fontSize: '2.5rem',
+    color: "black"
+  }
 }));
 
 function IconsRow() {
@@ -22,11 +26,14 @@ function IconsRow() {
 
   return (
     <div className={classes.iconContainer}>
-      <a rel="noopener noreferrer" href="https://www.facebook.comhttps://www.facebook.com/DETAILINGSUCEAVA">
+      <a rel="noopener noreferrer" href="https://www.facebook.com/detailingsuceava">
         <FacebookIcon className={classes.icon} />
       </a>
       <a rel="noopener noreferrer" href="https://www.instagram.com/detailingsuceava/">
         <InstagramIcon className={classes.icon} />
+      </a>
+      <a rel="noopener noreferrer" href="https://www.tiktok.com/detailingsuceava/">
+        <FontAwesomeIcon className={classes.tiktok} icon={faTiktok} />
       </a>
     </div>
   );

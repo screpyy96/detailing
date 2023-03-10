@@ -74,6 +74,7 @@ export const MonthsPlan = styled.div`
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr;
     width: 90%;
+    padding: 1rem 0;
   }
 `;
 
@@ -87,7 +88,7 @@ export const MonthItem = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 1rem;
-    margin: 1rem;
+    margin: 0;
   }
 `;
 
@@ -109,14 +110,23 @@ export const TitleCeramic = styled.h1`
   color: red;
   padding: 2rem;
   font-weight: normal;
+  @media screen and (max-width: 768px){
+    padding: 2rem 0;
+  }
 `;
 export const CeramicaWrapper = styled.div`
   width: 70%;
   margin: 0 auto;
-
+  padding-bottom: 2rem;
   & img {
     width: 100%;
     height: 400px;
+  }
+
+  @media screen and (max-width: 768px){
+    width: 90%;
+    transform: translate(0, 1%);
+    margin-bottom: 2rem;
   }
 `;
 
@@ -140,3 +150,12 @@ export const AditionalDetails = styled.div`
   margin-top: 2rem;
 `;
 
+export const ParagraphSize = styled.p`
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 1rem;
+
+  @media screen and (max-width: 768px){
+    padding: 1rem 0;
+  }
+`

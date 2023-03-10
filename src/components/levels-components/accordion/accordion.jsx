@@ -10,10 +10,10 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "60%",
+    width: "90%",
     margin: "0 auto",
     // transform: "translate(0, 20%)"
-    paddingTop: "5rem",
+    padding: "5rem",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
       margin: "0 auto"
