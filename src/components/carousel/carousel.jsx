@@ -23,7 +23,7 @@ const Carousele = () => {
         {poze.map((p, key) => {
           return (
             <div className="inaltime" key={key}>
-              <img src={p} alt="Detailing Suceava" width="300" height="200" />
+              <img src={p} alt="Detailing Suceava"/>
               
             </div>
           );
