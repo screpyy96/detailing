@@ -32,7 +32,7 @@ export const subcomponents = [
   {
     title: 'DESPRE',
     mainText:
-      ' Detailing Auto Suceava ste cel mai exclusivist specialist în folii de protecție a vopselei și a detaliilor din lume, care se ocupă de cel mai mare volum de supermașini din întreaga judet. Facilitățile noastre de ultimă generație găzduiesc unii dintre cei mai calificați detalieri și instalatori de folie de protecție a vopselei din tara. Acest mediu, împreună cu expertiza noastră, ne permite să oferim clienților noștri cea mai înaltă calitate posibilă.',
+      ' Detailing Auto Suceava sete cel mai exclusivist specialist în folii de protecție a vopselei și a detaliilor din Suceava, care se ocupă de cel mai mare volum de supermașini din întreaga judet. Facilitățile noastre de ultimă generație găzduiesc unii dintre cei mai calificați detalieri și instalatori de folie de protecție a vopselei din tara. Acest mediu, împreună cu expertiza noastră, ne permite să oferim clienților noștri cea mai înaltă calitate posibilă.',
     subText:
       'Noi va oferim un pachet total de soluții de îngrijire a mașinii, care încorporează totul, de la îmbunătățire și protecție până la întreținere',
     button: 'Vezi mai multe'
@@ -77,31 +77,31 @@ export const valorificare = [
       [' Materialele plastice exterioare și ornamentele ușilor sunt îmbrăcate.']
     ],
     sealent:
-      'Speak to our team for recomendations on ceramic coatings for the paintwork, windows and wheels ',
+      'Vorbiți cu echipa noastră pentru recomandări privind acoperirile ceramice pentru vopsea, geamuri și jante. ',
     subDescription: {
       title: 'Interior',
       description: [
         ['Mocheta aspirata'],
         ['Geamurile sunt curatate pe interior'],
-        ['Interior trim and surfaces are all cleaned using aerospace-grade products.']
+        ['Suprafețele și finisajele interioare sunt curățate cu produse de calitate aerospațială.']
       ]
     },
 
     whyChooseUS: [
-      ['Interior trim and surfaces are all cleaned using aerospace-grade products.'],
+      ['Suprafețele și finisajele interioare sunt curățate cu produse de calitate aero-spațială.'],
       [
-        'To seal freshly corrected paintwork we recommend Ceramic Coating for added glossiness, hydrophobic properties and easier maintenance or PPF for ultimate protection.'
+      'Pentru a sigila vopseaua recent corectată, recomandăm un strat de ceramică pentru un plus de strălucire, proprietăți hidrofobe și întreținere ușoară sau înveliș protector de uretan termoplast pentru o protecție maximă.'
       ],
       [
-        "This is our entry level paint correction detail, which removes minor imperfections including fine swirls/scratches in the clearcoat/topcoat of the paint. It is perfect for new cars, or cars with dulled paint that need a refresh. This process results in 70% to 80% 'correction factor', it will not, however, remove any deeper scratches."
+      'Acesta este pachetul nostru de nivel inițial pentru corectarea vopselei care elimină imperfecțiunile minore, inclusiv zgârieturi fine în stratul superior de vopsea/vernish. Este perfect pentru mașinile noi sau cele cu vopsea estompată care au nevoie de revigorare. Acest proces rezultă într-un „factor de corecție” de 70% - 80%, nu va înlătura însă nicio zgârietură mai adâncă.'
       ]
-    ]
+      ]
   },
   {
     id: 2,
     title: 'Level 2 - Detaliu de îmbunătățire',
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
-    header: 'PROCESUL DE CURĂȚARE A Detailing Auto Suceava ÎN MAI MULTE ETAPE ETAPE, INCLUSIV:',
+    header: 'PROCESUL DE CURĂȚARE Detailing Auto Suceava ÎN MAI MULTE ETAPE ETAPE, INCLUSIV:',
     imgPath:
       'https://i.shgcdn.com/297bf929-a9fe-4ae1-afdc-acb9b92042f7/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
     description: [
@@ -129,7 +129,7 @@ export const valorificare = [
     whyChooseUS: [
       ['De ce să alegeți Detaliul de îmbunatatire de nivel 2?'],
       [
-        'Pentru a etanșa vopseaua proaspăt corectată, vă recomandăm Ceramic Coating pentru un plus de luciu, proprietăți hidrofobe și întreținere mai ușoară sau PPF pentru o protecție maximă.'
+        'Pentru a etanșa vopseaua proaspăt corectată, vă recomandăm acoperire ceramica pentru un plus de luciu, proprietăți hidrofobe și întreținere mai ușoară sau PPF pentru o protecție maximă.'
       ],
       [
         'Acesta este detaliul nostru de corectare a vopselei de nivel de intrare, care îndepărtează imperfecțiunile minore, inclusiv vârtejurile/zgârieturile fine din stratul transparent/lacul superior al vopselei. Este perfect pentru mașini noi sau mașini cu vopsea tocită care au nevoie de o reîmprospătare. Acest proces are ca rezultat un „factor de corecție” de 70% până la 80%, însă nu va elimina zgârieturile mai adânci.'
@@ -246,7 +246,7 @@ export const valorificare = [
       title: 'De ce sa alegeti Detaliul de Nivel 5?',
       description: [
         [
-          'Dacă vă străduiți să obțineți perfecțiunea vopselei dvs., atunci Detaliul nostru de semnătură este pentru dvs. „Coaja de portocală” sau vârfurile și jgheaburile din stratul transparent adaugă vopselei nedorite, distorsiuni, textură și mate. Detaliul Topaz Signature va elimina textura nedorită de „coajă de portocală”, obținând un finisaj asemănător sticlei.'
+          'Dacă vă străduiți să obțineți perfecțiunea vopselei dvs., atunci Detaliul nostru de semnătură este pentru dvs. „Coaja de portocală” sau vârfurile și jgheaburile din stratul transparent adaugă vopselei nedorite, distorsiuni, textură și mate. Detaliul D&S va elimina textura nedorită de „coajă de portocală”, obținând un finisaj asemănător sticlei.'
         ]
       ]
     },
@@ -288,7 +288,7 @@ export const valorificare = [
       [' Materialele plastice exterioare și ornamentele ușilor sunt îmbrăcate.']
     ],
     sealent:
-      'Speak to our team for recomendations on ceramic coatings for the paintwork, windows and wheels ',
+      '"Vorbiti cu echipa noastra pentru recomandari privind acoperirile ceramice pentru vopsea, geamuri si roti." ',
     subDescription: {
       title: 'Interior',
       description: [
@@ -299,13 +299,13 @@ export const valorificare = [
     },
 
     whyChooseUS: [
-      ['Interior trim and surfaces are all cleaned using aerospace-grade products.'],
+      ['Suprafețele interioare și finisajele sunt curățate cu produse de calitate aeronautică.'],
       [
-        'To seal freshly corrected paintwork we recommend Ceramic Coating for added glossiness, hydrophobic properties and easier maintenance or PPF for ultimate protection.'
+      'Pentru a sigila suprafețele vopsite proaspăt corectate, recomandăm un strat de acoperire ceramic pentru proprietățile sale hidrofobe, strălucirea și ușurința în întreținere sau PPF pentru protecție maximă.'
       ],
       [
-        "This is our entry level paint correction detail, which removes minor imperfections including fine swirls/scratches in the clearcoat/topcoat of the paint. It is perfect for new cars, or cars with dulled paint that need a refresh. This process results in 70% to 80% 'correction factor', it will not, however, remove any deeper scratches."
+      'Acesta este serviciul nostru de corecție a vopselei de nivel de bază, care îndepărtează imperfecțiunile minore, inclusiv urme fine/ zgârieturi în stratul exterior al vopselei. Este perfect pentru mașinile noi sau cele cu vopsea ștearsă care au nevoie de o revigorare. Acest proces rezultă într-un factor de corecție de 70-80%, nu va elimina însă zgârieturi adânci mai mari.'
       ]
-    ]
+      ]
   }
 ];

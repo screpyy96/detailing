@@ -48,7 +48,7 @@ const AccordionText2 = () => {
         <AccordionDetails style={{ display: "block" }}>
 
           <Typography >
-          The term “Detailing” can be misinterpreted and confused with a much more basic service; valeting. Valeting can be described as “the cleaning of the exterior / interior to remove visible dust, dirt and grime, leaving the surfaces clean and shiny” Although a very simple and straight forward task, paint damage and surface imperfections are often caused by incorrect washing techniques. At Topaz Detailing we not only repair this damage but exceed this, creating a “better than new” finish. “The art of making a car beautiful is time”. This time refers not only to the time spent on your car but the time taken to gather expertise and knowledge, allowing us to provide a service that fits the beauty, elegance and sophistication of the cars we work with, restoring, enhancing and protecting your vehicle.​
+          Termenul "Detailing" poate fi interpreta greșit și confundat cu un serviciu mult mai simplu; spălare. Spălarea poate fi descrisă ca "curățarea exterioară/interioară pentru îndepărtarea prafului, murdăriei și mizeriei, lăsând suprafețele curate și strălucitoare". Deși este o sarcină foarte simplă și directă, daunele la vopsea și imperfecțiunile suprafeței sunt adesea cauzate de tehnici de spălare incorecte. La D&S Detailing, nu doar reparam aceste daune, ci le depășim, creând o finisare "mai bună decât nouă". "Arta de a face o mașină frumoasă este timpul". Acest timp se referă nu numai la timpul petrecut pe mașina ta, ci la timpul necesar pentru a acumula experiență și cunoștințe, permițându-ne să oferim un serviciu care se potrivește cu frumusețea, eleganța și rafinamentul mașinilor cu care lucram, restaurând, îmbunătățind și protejând vehiculul tău.
           </Typography>
           <br></br>
         </AccordionDetails>
@@ -58,11 +58,11 @@ const AccordionText2 = () => {
       {/* third */}
       <Accordion expanded={expanded === "panel3"} onChange={handleChange("panel3")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>How paint is inflicted?</Typography>
+          <Typography className={classes.heading}>Cum este afectată vopseaua?</Typography>
         </AccordionSummary>
         <AccordionDetails style={{display: "Block"}}>
           <Typography>
-          If dirt, dust and grime are not correctly removed from the vehicle, the cleaning process will rub and grind these particles into the surface of the paint inflicting noticeable damage. Sponges may have been used on numerous vehicles prior to touching your car, collecting dirt and grit. This problem induces defects known as “swirl marks” and can be seen below. Other side effects of incorrect washing techniques are component damage. Harmful acidic products, specifically designed for cleaning concrete are used to clean wheels and lower sections of the car. These harmful products cause rusted brake callipers, wheel nuts, exhaust tips and brake disc surrounds. Valeting companies also offer what is known as a “Polish” or “Machine polish” as an elite car presentation service. The products, processes and techniques used in these so called “full valets” are actually doing more harm than good to the paintwork. They result in circular scratches and very visible grooves in the vehicle’s top coat. Very abrasive compounds and improper use of a rotary polishing machine are used to butcher the paint imperfections. They remove huge amounts of the vehicles clear coat, whilst inflicting “holograms” and buffer trails.
+          Dacă murdăria, praful și mizeria nu sunt îndepărtate corect de pe mașină, procesul de curățare va freca și măcina aceste particule în suprafața vopselei provocând daune vizibile. Găjicii ar fi putut fi utilizate pe numeroase vehicule înainte de a atinge mașina ta, colectând murdărie și nisip. Acest lucru duce la apariția defectelor cunoscute sub numele de "urme circulare" și pot fi observate mai jos. Alte efecte secundare ale tehnicilor de spălare incorecte sunt deteriorarea componentelor. Produsele chimice cu aciditate ridicată, concepute special pentru curățarea betonului, sunt folosite pentru a curăța jantele și secțiunile inferioare ale mașinii. Aceste produse dăunătoare cauzează ruginirea etrierelor de frână, piulițelor de roată, vârfurilor de evacuare și înconjurătorului discului de frână. Companiile de detailing oferă și ceea ce este cunoscut sub numele de "Lustruire" sau "Lustruire mecanică" ca serviciu de prezentare de elită pentru mașini. Produsele, procesele și tehnologiile utilizate în aceste anumite "vopsitorii complete" fac mai mult rău decât bine vopselei. Se obțin zgârieturi circulare și caneluri foarte evidente în stratul superior al vehiculului. Compusurile foarte abrazive și utilizarea improprie a unei polizoare rotative sunt utilizate pentru a distruge imperfecțiunile vopselei. Înlătură o cantitate imensă din stratul clar al vehiculului, provocând "holograme" și urme de tamponare.
           </Typography>
           
         </AccordionDetails>
@@ -70,11 +70,11 @@ const AccordionText2 = () => {
       {/* fourth */}
       <Accordion expanded={expanded === "panel4"} onChange={handleChange("panel4")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>What about new cars?!</Typography>
+          <Typography className={classes.heading}>Ce se întâmplă cu mașinile noi?</Typography>
         </AccordionSummary>
         <AccordionDetails style={{display: "block"}}>
           <Typography>
-          Unfortunately we also receive new cars with defects caused by the dealer. During the PDI “Pre Delivery inspection”, the rushed removal of the factory applied wax and protective wrapping causes paint imperfections such as swirl marks and micro scratches. Topaz detailing provides a service that will not only restore you vehicles appearance but will exceed your aesthetic expectations.
+          Întristător, frecvent primim vehicule noi cu defecte cauzate de dealer. În timpul PDI "Inspeției prelivrare", îndepărtarea grabită a cerii și a învelișului protector de fabrica duce la imperfecțiuni ale vopselei cum ar fi urmele de rotire și zgârieturi fine. D&S Detailing oferă un serviciu ce nu doar redă aspectul autovehiculului, ci depășește chiar și așteptările estetice.
           </Typography>
          
         </AccordionDetails>

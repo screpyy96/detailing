@@ -7,7 +7,7 @@ export const despre = [
       "Facilitățile noastre de ultimă generație găzduiesc unii dintre cei mai calificați detalieri și instalatori de folie de protecție a vopselei din lume. Acest mediu, împreună cu expertiza noastră, ne permite să oferim clienților noștri cea mai înaltă calitate posibilă.",
     pachet_solutii:
       "La D&S oferim un pachet total de soluții de îngrijire a mașinii, care încorporează totul, de la îmbunătățire și protecție până la întreținere.",
-    slogan: "„Căsătoria perfectă între știință și artă”",
+    slogan: "„Artă și Știință în Detaliile Auto”",
     scop: "Detailing Auto Suceava există pentru a declanșa emoții pozitive; compania s-a născut pentru a rescrie modul în care proprietarii de mașini ar trebui să mențină aspectul vehiculelor lor, pentru a recrea rezultate de prezentare a mașinilor care îi vor satisface chiar și pe cei mai exigenți clienți.",
   },
 ];
@@ -22,7 +22,7 @@ export const detailing = [
     detailingQuality:
       " Fiecare mașină trece prin etapele noastre de Control detailing, începând de la primul contact, asigurând evaluarea corectă, cel mai bun sfat și controlul calității fără egal de fiecare dată.",
     detailingWarranty:
-      " Noi ne susținem munca, Topaz oferă cel mai cuprinzător program de garanție și după-vânzare din industrie, administrat de sediul nostru central. Aceasta înseamnă că dacă există vreodată o problemă sau o întrebare, suntem capabili să asistăm eficient și complet, fără întârziere.",
+      " Noi ne susținem munca, D&S oferă cel mai cuprinzător program de garanție și după-vânzare din industrie, administrat de sediul nostru central. Aceasta înseamnă că dacă există vreodată o problemă sau o întrebare, suntem capabili să asistăm eficient și complet, fără întârziere.",
     button: "Cere o ofertă",
     },
 

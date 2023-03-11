@@ -5,56 +5,70 @@ export const mentinere = [
     subTitle: 'Wash Plan Details',
     imgPath:"https://i.shgcdn.com/0ac37343-348c-42a4-be54-5482fa41e95e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
 
-    serviceDescription: 'The maintenance washes are a crucial part in maintaining the integrity of your initial treatment. The ongoing washes include all the processes necessary to maintain the longevity of the protective layers. They also prevent any further damage to your vehicle’s paint finish, such as scratches and scrapes.',
-    serviceDescription2: 'Paying for your wash plan in advance enables you to make significant savings on normal retail prices. You’ll save 27% on your washes, and 38% on the Level 2 detail at six months, which is crucial for the maintenance of your protective coating. This vital check enables us to spend more time decontaminating the film, freshening up your vehicle, treating the leather and sealing the car.',
-    serviceDescription3Bold: 'ALL MAINTENANCE TREATMENTS ARE CURRENTLY ONLY AVAILABLE AT TOPAZ DETAILING CENTRES.',
+    serviceDescription: 'Spalaturile de intretinere sunt o parte cruciala pentru pastrarea integritatii tratamentului initial. Spalaturile regulate includ toate procesele necesare pentru a mentine longevitatea straturilor protectoare. De asemenea, acestea previn orice deteriorare ulterioara a vopselei masinii dumneavoastra, cum ar fi zgarieturile si ciupiturile.',
+    serviceDescription2: 'Plata anticipata a planului dvs. de spalare va permite sa economisiti semnificativ fata de preturile normale de retail. Veti economisi 27% la spalari si 38% la detalierea nivelului 2 la sase luni, care este cruciala pentru intretinerea acoperirii protectoare. Aceasta verificare vitala ne permite sa petrecem mai mult timp decontaminand filmul, improspatand vehiculul dumneavoastra, tratand pielea si etansand masina.',
+    serviceDescription3Bold: 'TOATE TRATAMENTELE DE INTRETINERE SUNT DISPONIBILE DOAR LA CENTRELE D&S DETAILING.',
     contentTitle: 'Exterior',
-    subTitleExterior: "21 STAGE TOPAZ CLEANING PROCESS INCLUDING:",
+    subTitleExterior: "21 DE ETAPTE IN PROCESUL DE CURATARE D&S INCLUSIV:",
     desc1:
-      'The vehicle is washed using PH neutral shampoo using twin grit guard bucket system to prevent any stones and sharp edge particles being carried onto the car via the wash mitt.',
-
+    'Vehiculul este spalat cu sampon neutru PH folosind sistemul cu doua galete cu filtru de nisip pentru a preveni transportarea pietrelor si a particulelor ascutite pe masina prin manusile de spalare.',
     desc2:
-      'Snow foam is applied to lift any dirt and grit from the paintwork.',
+    'Spuma de zapada este aplicata pentru a ridica orice murdarire si nisip de pe vopseaua automobilului.',
+  
+  desc3:
+    'Rotile sunt curatate cu un cleaner pe baza de citrice neacide si perii speciale din par de cal.',
+  desc4: "Usi, arcuri si sectiunile inferioare sunt curatate (unde se poate).",
+  desc5: "Vehiculul este uscat cu ajutorul unor carpe din microfibra.",
+  
+  subTitleInterior: "Interior",
+  descInterior: "Geamurile sunt curatate pe partea interioara.",
+  desc2Interior: "Elementele de finisare interioara si suprafetele sunt curatate cu produse de calitate aerospaciala.",
+  
 
-    desc3:
-      'Wheels are cleaned using a non-acidic citrus based cleaner and specially designed horse hair brushes.',
-    desc4: "Door shuts, petrol cap, arches and lower sections are cleaned (where accessible).",
-    desc5: "The vehicle is hand dried using deep pile microfibre towels.",
-
-    subTitleInterior: "Interior",
-    descInterior: "Windows are cleaned on the inside.",
-    desc2Interior: "Interior trim and surfaces are all cleaned using aerospace – grade products.",
-
-   planLunar: [
-      { title: "6 Wash Plan Details", desc: "6 Washes a year (bi-monthly) including Level 2 detail at 6 months" },
-      { title: "12 Wash Plan Details", desc: "12 Washes a year (Once a month) including Level 2 detail at 6 months" },
-      { title: "24 Wash Plan Details", desc: "24 Washes a year (Twice a month) including Level 2 detail at 6 months" },
-      { title: "52 Wash Plan Details", desc: "52 Washes a year (Once a week) including a Level 2 detail at 6 months" }
+  planLunar: [
+    { title: "6 Detalii Plan de Spalare", desc: "6 Spalari pe an (obiectiv lunar) inclusiv detalierea nivelului 2 la 6 luni" },
+    { title: "12 Detalii Plan de Spalare", desc: "12 Spalari pe an (o data pe luna) inclusiv detalierea nivelului 2 la 6 luni" },
+    { title: "24 Detalii Plan de Spalare", desc: "24 Spalari pe an (de doua ori pe luna) inclusiv detalierea nivelului 2 la 6 luni" },
+    { title: "52 Detalii Plan de Spalare", desc: "52 Spalari pe an (o data pe saptamana) inclusiv detalierea nivelului 2 la 6 luni" }
     ]
-  },
-  {
-    id: 2,
-    title: 'Ceramic Coating',
-    imgPath: "https://i.shgcdn.com/750dd845-469f-47c2-9090-5f272a1d0dcf/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
-      price: "De la 1000 RON",
-    titleService: "GTechniq HALO",
-    subtitleServiceCeramic: "Crystal Serum Ultra features:",
-    serviceDescription: 'Premier quality product that is designed for ceramic coating on top of PPF and vinyl, especially. It is a chemically bonding, ultra-dense, flexible coating that becomes the permanent surface of the film or wrap and therefore protects it from the elements a car faces on a daily basis. It makes your car easier to maintain, preventing dirt ingression, and adding UV protection. (Please note this does not include wheels, glass, or interior).',
-    titleService2: "GTechniq Crystal Serum Ultra + EXO",
-    subtitleServiceCeramic2: "Crystal Serum Ultra features:",
-    serviceDescription2: 'Matchless levels of gloss, surface slickness, swirl and chemical resistance',
-    serviceDescription3: 'A revolutionary new 7nm nanoparticle works alongside a 20nm nanoparticle, increasing the ratio of crosslinkers - reinforcing the top layer of the coating',
-    serviceDescription4: 'The hard 10h top layer and flexible 7h base layer offer improved swirl resistance over regular 9h paint protection',
-    serviceDescription5: "Can withstand even the strongest wash chemicals (pH2 - pH13) and bird droppings",
-    serviceDescription6:"Hydrophobic and makes a car easy to maintain, but for the definitive hydrophobic function EXO Ultra Durable Hydrophobic Coating or C2 Liquid Crystal can be applied over the top",
-    serviceDescription7: "Unaffected by extreme heat changes, even from -40º to +250ºC",
- 
-    subTitleCeramica: "Additional Interior Protection Coatings Product Details:",
-
-    planLunar: [
-      { title: "L1 Smart Fabric AD", desc: "Antibacterial; Anti mould and mildew; Highly oil and water repellent. Makes ordinary fabrics waterproof and easy to clean. Use it to prevent soaking, swelling or rotting on any fabric. I1 coat each fabric fibre individually, leaving the texture unaffected, allowing the material to breathe. stale air will still be able to escape, while repelling water and and oil-based liquids." },
-      { title: "",desc: "Being alcohol based ensures a much deeper penetration of the active ingredient giving an I1 treated surface much better durability and overall performance." },
-      { title: "L1 Leather Guard AB", desc: "Leather Guard forms a durable abrasion resistant matte finish which offers the best ever protection against abrasion damage, UV rays, dye transfer and other discolouration." },
-    ]
+    },
+    {
+      "id": 2,
+      "title": "Acoperire ceramica",
+      "imgPath": "https://i.shgcdn.com/750dd845-469f-47c2-9090-5f272a1d0dcf/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+      "price": "De la 1000 RON",
+      "titleService": "GTechniq HALO",
+      "subtitleServiceCeramic": "Caracteristici ale Crystal Serum Ultra:",
+      "serviceDescription": "Un produs de calitate superioara conceput pentru acoperirea ceramica pe suprafata PPF si a foliilor, in special. Este o acoperire chimic adeziva, ultra-densa si flexibila, care devine suprafata permanenta a filmului sau foliei si, prin urmare, o protejeaza impotriva elementelor cu care se confrunta masina zilnic. Aceasta face mai usor intretinerea masinii dumneavoastra, previne inghesuirea murdariei si adauga protectie UV. (Va rugam sa retineti ca acesta nu include rotile, geamurile sau interiorul).",
+      "titleService2": "GTechniq Crystal Serum Ultra + EXO",
+      "subtitleServiceCeramic2": "Caracteristici ale Crystal Serum Ultra:",
+      "serviceDescription2": "Niveluri incomparabile de stralucire, alunecare suprafetei, turatie si rezistenta chimica",
+      "serviceDescription3": "Un nou nanoparticul de 7 nm functioneaza impreuna cu un nanoparticul de 20nm, marind raportul de legatorilor incrucisati - consolidand stratul superior al acoperirii",
+      "serviceDescription4": "Stratul superior dur de 10h si stratul de baza flexibil de 7h ofera o rezistenta imbunatatita la toropi fata de protectia standard a vopselurilor de 9h",
+      "serviceDescription5": "Poate rezista chiar si celor mai puternice chimicale pentru spalare (pH2 - pH13) si excrementele de pasari",
+      "serviceDescription6": "Hidrofob si face masina usor de intretinut, dar pentru functia hidrofoba definitiva, Exo Ultra Durable Hydrophobic Coating sau C2 Liquid Crystal pot fi aplicate deasupra",
+      "serviceDescription7": "Nemodificat de schimbarile de caldura extreme, chiar si de la -40º la +250ºC",
+  
+      "subTitleCeramica": "Detalii despre produsele de protectie interioara suplimentara:",
+  
+      "planLunar": [
+          {
+              "title": "6 detalii ale planului de spalare", 
+              "desc": "6 spalari pe an (bimensual) incluzand detaliul Level 2 la 6 luni"
+          },
+          {
+              "title": "12 detalii ale planului de spalare",
+              "desc": "12 spalari pe an (o data pe luna) incluzand detaliul Level 2 la 6 luni"
+          },
+          {
+              "title": "24 detalii ale planului de spalare",
+              "desc": "24 spalari pe an (de doua ori pe luna) incluzand detaliul Level 2 la 6 luni"
+          },
+          {
+              "title": "52 detalii ale planului de spalare",
+              "desc": "52 spalari pe an (o data pe saptamana) incluzand detaliul Level 2 la 6 luni"
+          }
+      ]
   }
+  
 ]

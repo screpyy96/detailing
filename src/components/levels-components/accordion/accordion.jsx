@@ -44,58 +44,58 @@ const AccordionText = () => {
         </AccordionSummary>
         <AccordionDetails style={{ display: "block" }}>
           <Typography className={classes.title}>
-            Protection
+            Protectie
           </Typography>
-          <p>Our PPF protects your paintwork from chips, minor scuffs and scrapes, environmental factors such as bug splatter and protects the finish against defects from poor washing techniques.</p>
+          <p>PPF-ul nostru protejează vopseaua mașinii de ciobituri, zgârieturi minore și lovituri ușoare, factori de mediu precum petele de insecte și protejează suprafața împotriva defectelor din cauza tehnicilor proaste de spălare.</p>
           <br></br>
           <Typography className={classes.title}>
-            Enhancement
+            Imbunatatire
           </Typography>
-          <p>Our PPF has a superior optical clarity and is very easy to maintain. When looked after correctly it gives a depth of shine like freshly detailed paint for many years.</p>
+          <p>PPF-ul nostru are o claritate optică superioară și este foarte ușor de întreținut. Odată îngrijit corect, oferă un nivel de strălucire similar cu vopseaua recenă detaliată timp de mulți ani.</p>
           <br></br>
           <Typography className={classes.title}>
-            Self Healing
+          Vindecare autonomă
           </Typography>
-          <p>Our PPF has a self healing layer. Stone chips, scuffs, scratches and swirls that don’t penetrate this layer disappear with the application of heat from hot tap water, the car’s engine or even just the sun.</p>
+          <p>PPF-ul nostru are un strat de vindecare autonom. Pietricele, zgârieturi, ciobituri și vârtejuri care nu pătrund acest strat dispăr complet prin aplicarea căldurii produse din apă caldă de la robinet, motorul mașinii sau chiar de soare.</p>
           <br></br>
           <Typography className={classes.title}>
-            Replacement
+            Inlocuire
           </Typography>
-          <p>If a panel needs replacing, you won’t be off the road for long. Most panels can be replaced within a couple of hours – unlike traditional paint repairs, which often take days or even weeks.</p>
+          <p>Dacă o bucată necesita înlocuire, nu veți sta foarte mult pe marginea drumului. Majoritatea panourilor pot fi înlocuite în câteva ore, spre deosebire de reparațiile tradiționale la vopsitorie, care adesea durează zile sau chiar săptămâni.</p>
           <br></br>
           <Typography className={classes.title}>
             Cost
           </Typography>
-          <p>Because our PPF is specifically designed to fit each panel it can be replaced individually meaning little or no need to strip the panels and no extra paint to blend the colour to adjacent panels.</p>
+          <p>Datorită faptului că PPF-ul nostru este conceput să se potrivească fiecărui panou în parte, acesta poate fi înlocuit individual, ceea ce reduce la minimum necesitatea demontării panourilor și a aplicării vopselei suplimentare pentru a se asigura o culoare uniformă.</p>
           <br></br>
         </AccordionDetails>
       </Accordion>
       {/* second */}
       <Accordion expanded={expanded === "panel2"} onChange={handleChange("panel2")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>What PPF coverage to choose?</Typography>
+          <Typography className={classes.heading}>Care este cea mai buna optiune pentru acoperirea cu PPF?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <div>
             <Typography>
-              Traditionally PPF was installed on wheel arches, the leading edge of the bonnet or the forward panels of the car. Today, many clients wants us to cover the entire vehicle. Such is the quality of the modern films and our design and installation processes that it really does make sense to protect the whole car.
+            Tradițional, filmul de protecție PPF era instalat pe arcurile roților, marginea din față a capotei sau panourile frontale ale mașinii. În prezent, mulți clienți doresc să acopere întreaga mașină. Calitatea filmelor moderne și procesele noastre de proiectare și instalare sunt atât de bune încât chiar are sens să protejați întreaga mașină.
             </Typography>
             <br></br>
             <Typography>
-              Paint protection film can protect your car against damage such as stone chips, car park nudges and chipping, and day-to-day scratches.
+            Film de protectie pentru vopsea poate proteja masina impotriva deteriorarii, cum ar fi cioburile de piatra, zgarieturi din parcari si exfolieri si zgarieturi zilnice.
             </Typography>
             <br></br>
             <Typography>
-              With our custom designs, we can cover ANY painted, carbon fibre or smooth finished surface of the car, even interior trims. We have various options to suit each part of the car: thicker film for low down, high impact areas such as bumpers and sills, and clearer film for large, flat panels such as bonnets and roofs. All our film comes in matte, as well as traditional high-gloss options, to cover expensive matte paints and carbon fibre paints.
+            Cu ajutorul designurilor personalizate, putem acoperi ORICE suprafață vopsită, din fibră de carbon sau finisată fină a mașinii, chiar și elementele interioare. Avem diferite opțiuni pentru a se potrivi fiecărei părți a mașinii: folie mai grosă pentru zonele care sunt în partea de jos a mașinii, cum ar fi praguri și paraurti, unde impactul este maxim și o folie mai clară pentru panourile mari, plane, cum ar fi capotele și acoperișurile. Toate foliile noastre vin atât în variante mat cât și lucios pentru a putea acoperi vopsele mate și cu fibră de carbon prețioase.
             </Typography>
             <br></br>
-            <h3 >Where the Damage Occurs:</h3>
+            <h3 >Unde apar daunele:</h3>
             <br />
-            <h3> (bumpers, bonnet, front wings, wing mirrors, lower doors, wheel arches, sills, headlamps, lower doors, wing mirrors).</h3>
+            <h3> (bari, capota, aripi frontale, oglinzi laterale, usi inferioare, arcuri roata, praguri, faruri, usi inferioare, oglinzi laterale).</h3>
             <br />
-            <h3>Medium impact areas (rear wings, upper doors).</h3>
+            <h3>Zone cu impact mediu: (aripi spate, usi superioare).</h3>
             <br />
-            <h3>Low impact areas (boot lid, engine cover).</h3>
+            <h3>Zone cu impact redus: (capotă portbagaj, capac motor).</h3>
           </div>
           <img src="https://i.shgcdn.com/98143c49-880a-4761-bb50-379380c592fd/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="detailing suceava"/>
           <br></br>
@@ -106,50 +106,49 @@ const AccordionText = () => {
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className={classes.heading}>Ce ne face diferiti?</Typography>
         </AccordionSummary>
-        <AccordionDetails style={{display: "Block"}}>
+        <AccordionDetails style={{display: "block", margin: "0 1rem"}}>
           <Typography>
-            All of our paint protection film kits are designed in house from scratch and are not amended from film manufacturers patterns. Resulting in optimum protection in accordance to our stringent Topaz standards.
+          Toate kiturile noastre de film de protecție a vopselei sunt concepute de la zero de către echipa noastră, iar nu adaptate după modelele producătorilor de folii. Acest lucru asigură o protecție optimă în conformitate cu standardele noastre stricte de detaliere Auto Suceava.
           </Typography>
           <br />
           <ol>
-            <li>Once a car arrives onsite a full inspection of the car’s condition is carried out, whether it is a new or used vehicle.</li>
-            <li>The car’s paint is inspected further using a sun gun to highlight any defects, swirls, holograms and customers are offered optional paint correction where necessary before the film installation begins.</li>
-            <li>New models get patterned panel at a time, then digitised and loaded into our CAD programme for the design work to be done.</li>
-            <li>Now we can move to the full installation of our PPF.
+            <li>La sosirea mașinii pe site, se efectuează o inspectare completă a stării acesteia, indiferent dacă este vorba despre un vehicul nou sau folosit.</li>
+            <li>Vopseaua mașinii este inspectată în continuare utilizând un sun gun pentru evidențierea oricăror defecte, swirls-uri, holograme și clienții li se oferă opțiuni de corecție a vopselei, dacă este necesar, înainte de începerea instalării foliei.</li>
+       
+            <li>Acum putem trece la instalarea completă a PPF-ului nostru.
             </li>
-            <li>Finally we move to the first of three Quality Control stages before the car receives final cleaning ready for return to it’s owner.</li>
+            <li>În cele din urmă, trecem la prima dintre cele trei etape de control al calității înainte ca mașina să fie curățată complet pentru a fi pregătită pentru returnarea proprietarului.</li>
           </ol>
         </AccordionDetails>
       </Accordion>
       {/* fourth */}
       <Accordion expanded={expanded === "panel4"} onChange={handleChange("panel4")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>After care and maintenance</Typography>
+          <Typography className={classes.heading}>Aftercare si intretinere</Typography>
         </AccordionSummary>
         <AccordionDetails style={{display: "block"}}>
           <Typography>
-          Once your car has been protected by our Topaz Installers you can also enjoy the peace of mind knowing that maintaining the glossy appearance of the PPF is still very simple, we provide After Care instructions along with your warranty documentation but a few key points
+          Dupa ce masina ta a fost protejata de instalatorii D&S ai parte de linistea faptului ca intretinerea aspectului lucios al PPF-ului este inca foarte simpla, iti oferim instructiuni de ingrijire impreuna cu documentatia garantiei, dar cateva detalii importante:
           </Typography>
           <br />
       <ul>
         <li>
-        As the installation of the film is a wet process we advise to not wash the car for the first 7 days afterwards, the moisture in between the film and paint is still evaporating during this time and using shampoos can affect this and the adhesive qualities around the edges of each panel.
- 
+        Cum instalarea foliei este un proces umezit, noi recomandăm să nu spălați mașina în primele 7 zile după aplicare deoarece umiditatea dintre folie și vopsea încă se evaporă în acest timp și utilizarea șampoanelor poate afecta calitățile adezive în jurul marginilor fiecărui panou.
         </li>
         <br />
         <li>
-          Once the film has cured, you are able to wash the car as normal (if possible use the twin bucket method and a lambswool wash mitt), if using a pressure washer ensure that you keep the spray lance at least 3 feet away from the surface of the film especially the edges as the pressure may lift the edge of the film, we recommend a PH neutral shampoo and car care products such as Gtechnic or Swissvax.
+        Odată ce filmul s-a întărit, puteți să spălați mașina ca de obicei (dacă este posibil, folosiți metoda celor două găleți și o mănușă lambswool pentru spălat), dacă utilizați un pistol de presiune, asigurați-vă că păstrați lancea spray-ul cel puțin la 3 metri distanță de suprafața filmului, în special marginile, deoarece presiunea poate ridica marginea filmului; recomandăm un șampon neutru la PH și produse de îngrijire a mașinii precum Gtechnic sau Swissvax.
         </li>
         <br />
         <li>
-        If you get bug splatter or bird dropping you should still remove this as soon as possible as you would with bare paint, while the PPF adds protection the top layer has a similar make up to your cars own lacquer and will also be marked from the acids etching into it.
+        Dacă există insecte sau excremente de pasăre pe mașina ta, este important să le îndepărtezi cât mai curând posibil. Deși PPF are rolul de a proteja suprafața mașinii tale, stratul superior are o compoziție similară cu lacul original al mașinii tale și poate fi afectat de acizi care pătrund în el. Așadar, recomandăm să acționezi la timp și să îndepărtezi cu grijă orice murdărie de pe suprafața mașinii.
         </li>
         <br />
         <li>
-        If you like to polish or wax your car you can continue to do this on PPF covered panels although more careful selection of the products must be taken. Polishes that are resin, solvent based or abrasive can mark the film leaving a haze or damaging the self healing abilities and must be avoided. A good quality natural wax like Carnauba can be used, of course if you are unsure our team can advise on specific recommended products.
+        Dacă îți place să îți lustruiești sau sa îți fațetezi mașina, poți continua să faci acest lucru pe panourile acoperite cu PPF, dar trebuie să fii mai atent la selecția produselor. Polisantele cu baza de rășină, solvent sau abrazive pot marca filmul, lăsând o ceață sau deteriorând capacitățile de autovindecare și trebuie evitate. Se poate folosi o ceară naturală de înaltă calitate cum ar fi Carnauba, desigur dacă nu ești sigur, echipa noastră poate recomanda produse specifice.
         </li>
         <br />
-        <li>Surface scratches and swirl marks in the film will heal over a period of time, if you needed to accelerate the process then pour warm water (not boiling) over the desired area, that will help the upper most layer of the film to morph back into its original state.</li>
+        <li>Micile zgârieturi din folia de protecție se vor vindeca treptat în timp, dar dacă dorești să accelerezi procesul atunci poți turna apă călduță (nu fierbinte) pe zona afectată, acest lucru va ajuta stratul superior al peliculei să revină la starea sa originală.</li>
       </ul>
         </AccordionDetails>
       </Accordion>
