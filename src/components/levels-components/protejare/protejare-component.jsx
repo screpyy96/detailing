@@ -2,7 +2,7 @@ import Hero from "../../subcomponents/hero/hero";
 import HotBtns from "./hot-btns/hotButtons";
 import * as PC from "./protejare.styled";
 import { Grid, Typography } from "@material-ui/core";
-import image from "../../../assets/images/despre.jpg"
+import image from "../../../assets/images/despre.webp"
 import AccordionText from "../accordion/accordion";
 import { DirectionBtn, InfoContainer } from "../../contact/contact.styled";
 import { Link } from "@reach/router";

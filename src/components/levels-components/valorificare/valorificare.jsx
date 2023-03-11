@@ -8,7 +8,7 @@ import { BoxStyled, TabListStyle, TabStyle } from './valorificare.styled';
 import { ValorificaComponent } from './valorifica-component';
 import { makeStyles, useMediaQuery, useTheme } from '@material-ui/core';
 import Hero from '../../subcomponents/hero/hero';
-import image from "../../../assets/images/valorificare.jpg"
+import image from "../../../assets/images/valorificare.webp"
 
 const useStyles = makeStyles((theme) => ({
   root: {

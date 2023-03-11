@@ -6,7 +6,7 @@ import TabContext from "@mui/lab/TabContext";
 import TabPanel from "@mui/lab/TabPanel";
 import Hero from "../../subcomponents/hero/hero";
 import { BoxStyled } from "../valorificare/valorificare.styled";
-import image from "../../../assets/images/protejare.jpg";
+import image from "../../../assets/images/protejare.webp";
 import ProtejareComponent from "../protejare/protejare-component";
 
 const useStyles = makeStyles((theme) => ({

@@ -2,9 +2,9 @@ import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import './carousel.css';
-import poza1 from '../../data/images/poza2.jpg';
-import poza2 from '../../data/images/interior.jpg';
-import poza3 from '../../data/images/poza1.jpg';
+import poza1 from '../../data/images/poza2.webp';
+import poza2 from '../../data/images/interior.webp';
+import poza3 from '../../data/images/poza1.webp';
 
 const poze = [poza1, poza2, poza3];
 const Carousele = () => {
@@ -21,7 +21,7 @@ const Carousele = () => {
         {poze.map((p, key) => {
           return (
             <div className="inaltime" key={key}>
-              <img src={p} alt="Detailing Suceava"/>
+              <img src={p} alt="Detailing Suceava" loading="lazy" width="300" height="200" />
               
             </div>
           );

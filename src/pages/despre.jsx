@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Hero from "../components/subcomponents/hero/hero"
-import image from "../assets/images/despre.jpg"
+import image from "../assets/images/despre.webp"
 import FirstComponent from '../components/despre/1stComponent';
 import {despre} from '../data/despre.js';
 import DespreDetailing from '../components/despre/despreDetailing';
@@ -8,7 +8,7 @@ import Banner from '../components/banner-social/banner';
 import { MapsContainer } from '../components/levels-components/protejare/protejare.styled';
 import { DirectionBtn, InfoContainer } from '../components/contact/contact.styled';
 import IconsRow from '../components/icons/iconsRow';
-import hala from '../data/images/garaj-suceava-detailing.jpg'
+import hala from '../data/images/garaj-suceava-detailing.webp'
 import { Link } from '@reach/router';
 
 const Despre = () => {
