@@ -17,18 +17,27 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-5F69ZXDRP0"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5F69ZXDRP0"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
 
-      gtag("config", "G-5F69ZXDRP0");
+      gtag("js", new Date());
+      gtag("config", "G-5F69ZXDRP0", { 'cookie_flags': 'SameSite=None; Secure', 'useAmpClientId': true });
+    
+      const options = {
+        passive: true
+      };
+
+      document.addEventListener('touchstart', myFunction, options);
+      document.addEventListener('wheel', myFunction, options);
+
+      function myFunction(event) {
+        // Processing for touchstart and wheel events here
+      }
     </script>
+
   </body>
 </html>
