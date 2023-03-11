@@ -20,7 +20,10 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     padding: "1rem",
     marginTop: "-3px",
-    
+    [theme.breakpoints.down("xs")]: {
+      marginTop: "-4px",
+      fontSize: '2.3rem',
+    },
   }
 }));
 
@@ -35,7 +38,7 @@ function IconsRow() {
       <a rel="noopener noreferrer" href="https://www.instagram.com/detailingsuceava/">
         <InstagramIcon className={classes.icon} />
       </a>
-      <a rel="noopener noreferrer" href="https://www.tiktok.com/detailingsuceavadns/">
+      <a rel="noopener noreferrer" href="https://www.tiktok.com/@detailingsuceavadns?is_from_webapp=1&sender_device=pc">
         <FontAwesomeIcon className={classes.tiktok} icon={faTiktok} />
       </a>
     </div>
