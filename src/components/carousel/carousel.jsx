@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { Img } from 'react-image';
 
 import './carousel.css';
 import poza1 from '../../data/images/poza2.webp';
@@ -10,14 +11,15 @@ import poza2 from '../../data/images/interior.webp';
 import poza3 from '../../data/images/poza1.webp';
 
 const poze = [poza1, poza2, poza3];
+
 const Carousele = () => {
   return (
     <>
       <Helmet>
         {/* Adaugarea linkului carte ca si asa sa precarce imaginea */}
-        <link rel="preload" as="image" href={poza1} />
-        <link rel="preload" as="image" href={poza2} />
-        <link rel="preload" as="image" href={poza3} />
+        <link rel="preload" href={poza1} as="image"/>
+        <link rel="preload" href={poza2} as="image"/>
+        <link rel="preload" href={poza3} as="image"/>
       </Helmet>
 
       <div className="filter height">
@@ -34,8 +36,7 @@ const Carousele = () => {
           {poze.map((p, key) => {
             return (
               <div className="inaltime" key={key}>
-                <img src={p} alt="Detailing Suceava"/>
-                
+                <Img src={p} alt="Detailing Suceava"/>
               </div>
             );
           })}
@@ -45,4 +46,4 @@ const Carousele = () => {
   );
 };
 
-export default Carousele
+export default Carousele;
