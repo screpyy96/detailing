@@ -11,7 +11,7 @@ export const protejare = [
     button: 'Book your appointment',
     dots: [
       {
-        top: '12',
+        top: '11',
         left: '41',
         mobileTop: '310',
         mobileLeft: '320',
@@ -25,7 +25,7 @@ export const protejare = [
         text: 'Oglinzile laterale sunt chiar în linia de tragere a pietrelor, a gardurilor vii și chiar a altor mașini. PPF-ul nostru protejează eficient mașina de acest lucru.'
       },
       {
-        top: '15',
+        top: '14.5',
         left: '44',
         mobileTop: '370',
         mobileLeft: '350',

@@ -35,7 +35,7 @@ export const ServiciiContainer = styled.div`
 
     img {
       width: 100%;
-      height: auto;
+     
       padding: 1rem;
     }
   }
