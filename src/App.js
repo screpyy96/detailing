@@ -12,6 +12,7 @@ import { valorificare } from './data/db';
 import { protejare } from './data/protejare';
 import Mentinere from './components/levels-components/mentinere/mentinere';
 import {mentinere} from './data/mentinere'
+import Colantare from './components/levels-components/colantare/colantare';
 
 const title  = "Detailing Auto Suceava - Acasa"
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Valorificare path="/valorificare"  valorificare={valorificare}/>
         <Protejare path="/protejare" protejare={protejare}/>
         <Mentinere path="/mentinere" mentinere={mentinere}/>
+        <Colantare path="/colantare" />
       </Router>
     </div>
   );

@@ -9,6 +9,7 @@ padding-bottom: 3rem;
 padding-top: 3rem;
 @media screen and (max-width: 768px) {
   grid-template-columns: auto;
+  padding:
 }
 `
 
@@ -33,6 +34,10 @@ export const SecondHalf = styled.div`
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    width: 95%;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -69,6 +74,7 @@ export const BookBtn = styled.button`
   font-size: 1rem;
   text-align: center;
   background: #ea1d22;
+  cursor: pointer;
 `;
 
 export const BlinkingDotsContainer = styled.div`

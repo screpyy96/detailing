@@ -1,6 +1,6 @@
 export const cards = [
   { 
-    title: 'Valorificare',
+    title: 'Detailing',
     frontImg:
       'https://i.shgcdn.com/545091da-9d3f-42e0-9bc4-a8d5a9f5b5b7/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
     description:
@@ -25,6 +25,14 @@ export const cards = [
       'Serviciile noastre de detailing ofer full aspect asupra tratamentelor pentru valorificarea, restaurare si viitoarele mentineri ale masinii',
     backImg: '',
     urlPath: '/mentinere'
+  },
+  {
+    title: 'Colantare',
+    frontImg: "https://i.shgcdn.com/8849205b-d798-4920-977b-90282f05617a/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+    description:
+      'Serviciile noastre de colantare ofera un aspect intreg asupra colantarii, restaurare si viitoarele mentineri ale masinii',
+    backImg: '',
+    urlPath: '/colantare'
   }
 ];
 

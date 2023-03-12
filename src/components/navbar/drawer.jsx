@@ -100,6 +100,9 @@ function DrawerComponent() {
                 <MenuItem onClick={() => setOpenDrawer(false)}>
                   <LinkStyle to="/mentinere">Mentinere</LinkStyle>
                 </MenuItem>
+                <MenuItem onClick={() => setOpenDrawer(false)}>
+                  <LinkStyle to="/colantare">Colantare</LinkStyle>
+                </MenuItem>
               </MenuList>
             </AccordionDetails>
           </Accordion>
