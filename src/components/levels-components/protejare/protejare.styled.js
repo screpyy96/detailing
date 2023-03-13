@@ -75,6 +75,9 @@ export const BookBtn = styled.button`
   text-align: center;
   background: #ea1d22;
   cursor: pointer;
+  @media screen and (max-width: 768px) {
+    padding: 1rem;
+  }
 `;
 
 export const BlinkingDotsContainer = styled.div`

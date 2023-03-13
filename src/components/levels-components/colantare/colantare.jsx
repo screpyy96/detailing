@@ -10,7 +10,7 @@ import {
 import { Link } from "@reach/router";
 import { ImageColantare, ColantareWrapper } from "./colantare.styled";
 import ImageSlider from "../image-slider/image-slider";
-import { SliderContainer } from "../image-slider/image-slider.styled";
+import { SliderContainer, SpanBlock } from "../image-slider/image-slider.styled";
 
 const Colantare = () => {
   return (
@@ -72,6 +72,7 @@ const Colantare = () => {
       </ColantareWrapper>
       <SliderContainer>
         <ImageSlider />
+        <SpanBlock/>
       </SliderContainer>
     </>
   );
