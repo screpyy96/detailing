@@ -8,9 +8,18 @@ import {
   BookBtn,
 } from "../protejare/protejare.styled";
 import { Link } from "@reach/router";
-import { ImageColantare, ColantareWrapper } from "./colantare.styled";
+import { ImageColantare, ColantareWrapper, TextWrapper } from "./colantare.styled";
 import ImageSlider from "../image-slider/image-slider";
 import { SliderContainer, SpanBlock } from "../image-slider/image-slider.styled";
+import Banner from "../../banner-social/banner";
+import Directie from "../../directii/directie";
+const TextComponent = () => {
+  return (
+    <TextWrapper>
+      <h2>INAINTE SI DUPA COLANTARE VINYL</h2>
+    </TextWrapper>
+  )
+}
 
 const Colantare = () => {
   return (
@@ -70,10 +79,14 @@ const Colantare = () => {
           </div>
         </SecondHalf>
       </ColantareWrapper>
+        <TextComponent/>
       <SliderContainer>
         <ImageSlider />
         <SpanBlock/>
       </SliderContainer>
+      <br />
+        <Banner/>
+        <Directie/>
     </>
   );
 };

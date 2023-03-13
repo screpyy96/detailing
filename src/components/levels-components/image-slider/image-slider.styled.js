@@ -9,7 +9,6 @@ export const SliderContainer = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
-    
     @media screen and(max-width: 768px) {
         width: 400px
         padding: 0;
@@ -36,14 +35,13 @@ export const SpanBlock = styled.span`
     height: 100px;
     position: absolute;
     background: #fafafa;
-    // background: red;
-    top: 200%;
+    top: 120%;
     left: 10%;
     z-index: 99;
     @media (max-width: 768px) {
         background: #fafafa;
-        top: 67%;
+        top: 61%;
         left: 10%;
-        height: 45px;
+        height: 50px;
     }
 `

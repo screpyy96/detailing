@@ -27,3 +27,14 @@ padding: 2rem;
   align-items: center;
 }
 `
+
+ export const TextWrapper = styled.div`
+  height: 200px;
+  width: 100%;
+  background: rgb(244, 244, 244);
+  display: flex;
+  color: #ea1d22;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+`

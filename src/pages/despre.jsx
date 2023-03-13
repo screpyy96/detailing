@@ -16,7 +16,7 @@ const Despre = () => {
 
   return (
     <div>
-      <Hero style={{height: "50%"}}data="Despre | D&S Detailing" image={image} />
+      <Hero style={{height: "50%"}} data="Despre | D&S Detailing" image={image} />
       <FirstComponent despre={despre} hala={hala}/>
       <DespreDetailing despre={despre}/>
       <Banner/>
