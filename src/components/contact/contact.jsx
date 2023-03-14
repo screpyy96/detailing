@@ -68,8 +68,8 @@ const ContactForm = () => {
   return (
     <ContactWrapper>
       <StyledBox>
-      <Typography style={{ color: "black", paddingBottom: "20px" }}>
-        REQUEST A CALL BACK OR BOOKING
+      <Typography style={{ color: "black", padding: "20px" }}>
+        FA O PROGRAMARE
       </Typography>
         <Formik
           initialValues={{
@@ -100,7 +100,7 @@ const ContactForm = () => {
               <TextField
                 style={textFieldStyle}
                 margin="dense"
-                label="Name"
+                label="Nume"
                 name="from_name"
                 value={values.from_name}
                 onChange={handleChange} // eslint-disable-line}
@@ -113,7 +113,7 @@ const ContactForm = () => {
               <TextField
                 style={textFieldStyle}
                 margin="dense"
-                label="Email"
+                label="Serviciu"
                 name="from_email"
                 value={values.from_email}
                 onChange={handleChange}
@@ -126,7 +126,7 @@ const ContactForm = () => {
               <TextField
                 style={textFieldStyle}
                 margin="dense"
-                label="Telephone"
+                label="Telefon"
                 name="telephone"
                 value={values.telephone}
                 onChange={handleChange}
@@ -139,7 +139,7 @@ const ContactForm = () => {
               <TextField
                 style={textFieldStyle}
                 margin="dense"
-                label="Message"
+                label="Mesaj"
                 name="message"
                 value={values.message}
                 onChange={handleChange}

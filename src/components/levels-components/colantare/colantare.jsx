@@ -7,12 +7,14 @@ import {
   ExtraSubtitle,
   BookBtn,
 } from "../protejare/protejare.styled";
+import './colantare.css'
 import { Link } from "@reach/router";
-import { ImageColantare, ColantareWrapper, TextWrapper } from "./colantare.styled";
+import { ImageColantare, ColantareWrapper, TextWrapper, Spliter } from "./colantare.styled";
 import ImageSlider from "../image-slider/image-slider";
 import { SliderContainer, SpanBlock } from "../image-slider/image-slider.styled";
 import Banner from "../../banner-social/banner";
 import Directie from "../../directii/directie";
+
 const TextComponent = () => {
   return (
     <TextWrapper>
@@ -79,14 +81,16 @@ const Colantare = () => {
           </div>
         </SecondHalf>
       </ColantareWrapper>
-        <TextComponent/>
+      <TextComponent />
       <SliderContainer>
         <ImageSlider />
-        <SpanBlock/>
+        <SpanBlock />
       </SliderContainer>
-      <br />
-        <Banner/>
-        <Directie/>
+      {/* Only visible on desktop */}
+
+      <Spliter/>
+      <Banner />
+      <Directie />
     </>
   );
 };

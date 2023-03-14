@@ -11,6 +11,19 @@ height: 70%;
   }
 `
 
+export const Spliter = styled.div`
+// padding-top: 1rem;
+width: 100%;
+height: 50px;
+background: #fafafa;
+display: block;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 0 auto;
+    height: 10px;
+  }
+`
+
 export const ColantareWrapper = styled.div`
 display: flex;
 background: white;
@@ -37,4 +50,8 @@ padding: 2rem;
   align-items: center;
   justify-content: center;
   padding: 0 2rem;
+
+  @media screen and (max-width: 768px){
+    padding: 0 1rem;
+  }
 `

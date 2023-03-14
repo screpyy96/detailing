@@ -1,0 +1,14 @@
+/* Set display to block on desktop */
+@media screen and (min-width: 768px) {
+    br {
+      display: block;
+    }
+  }
+  
+  /* Set display to none on mobile */
+  @media screen and (max-width: 767px) {
+    br {
+      display: none;
+    }
+  }
+  

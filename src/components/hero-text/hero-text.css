@@ -17,14 +17,14 @@
 
 .title-hero { 
   text-transform: uppercase;
-  border-right: 2px solid red;
+  border-left: 2px solid red;
   font-size: 1.6rem;
   padding: 0 10px;
   color: white;
 }
 
 .title-hero:last-child{
-  border: none;
+  border-left: 2px solid red;
 }
 
 .text-hero {
@@ -37,6 +37,11 @@
 
 @media screen and (max-width: 768px) {
 
+  .main-title {
+    width: 50%;
+    margin: 0 auto;
+  }
+
   .title-hero {
     display: flex;
     /* width: fit-content; */
@@ -44,9 +49,10 @@
     align-items: center;
     font-size: 1.2rem;
     letter-spacing: 2px;
+    line-height: 1.5rem;
   }
   .title-hero:last-child{
-    border-right: 2px solid red;
+    border-left: 2px solid red;
   }
   .text-hero {
     color: white;
@@ -54,12 +60,13 @@
     font-size: 1rem;
     width: 80%;
     margin: 0 auto;
+    padding-top: 2rem;
   }
 
   .container-text {
     display: block;
     position: absolute;
-    top: 25%;
+    top: 33%;
     right: 50;
     text-align: center;
     width: 100%;

@@ -3,14 +3,14 @@ import {ElfsightWidget} from 'react-elfsight-widget';
 
 export const SliderContainer = styled.div`
     width: 80%;
-    height: 300px;
+    height: 400px;
     margin: 0 auto;
-    padding: 2rem;
+    // padding: 2rem;
     display: flex;
     flex-direction: column;
     position: relative;
     @media screen and(max-width: 768px) {
-        width: 400px
+        width: 400px;
         padding: 0;
         padding: 0;
         height: 500px;
@@ -35,13 +35,13 @@ export const SpanBlock = styled.span`
     height: 100px;
     position: absolute;
     background: #fafafa;
-    top: 120%;
+    top: 180%;
     left: 10%;
     z-index: 99;
     @media (max-width: 768px) {
         background: #fafafa;
-        top: 61%;
+        top: 68%;
         left: 10%;
-        height: 50px;
+        height: 100px;
     }
 `

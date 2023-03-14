@@ -52,7 +52,7 @@ const Contact = () => {
             <h1>/ Contact</h1>
             <p>+4 0748 455 547</p>
             <p>detailingsuceava@gmail.com</p>
-            <p>/ LUNI-SAMBATA 8:00 - 18:00</p>
+            <p>/ LUNI-SAMBATA 9:00 - 18:00</p>
            
               <IconsRow />
           

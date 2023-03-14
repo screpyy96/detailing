@@ -18,12 +18,12 @@ const BannerWrapper = styled(Box)`
     align-items: center;
     z-index: 999999;
     position: relative;
-    bottom: -80px;
+    // bottom: -80px;
     left: 0;
     @media screen and (max-width: 768px){
     height: 100px;
     position: relative;
-    bottom: 122px;
+    bottom: 86px;
     left: 0;
 }
 `;
