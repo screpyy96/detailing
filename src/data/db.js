@@ -6,7 +6,7 @@ export const cards = [
     description:
       'Serviciile noastre de detailing ofer full aspect asupra tratamentelor pentru valorificarea, restaurare si viitoarele mentineri ale masinii',
     backImg: '',
-    urlPath: '/valorificare'
+    urlPath: '/detailing'
   },
   {
     title: 'Protejare',

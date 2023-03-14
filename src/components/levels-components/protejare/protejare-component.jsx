@@ -6,6 +6,7 @@ import image from "../../../assets/images/despre.webp"
 import AccordionText from "../accordion/accordion";
 import Banner from "../../banner-social/banner";
 import Directie from "../../directii/directie";
+import { Link } from "@reach/router";
 
 const ProtejareComponent = ({ data }) => {
 
@@ -28,7 +29,11 @@ const ProtejareComponent = ({ data }) => {
           <PC.ExtraSubtitle>{data.serviceDescription}</PC.ExtraSubtitle>
           <div>
           <PC.Price>{data.price}</PC.Price> 
-          <PC.BookBtn>{data.button}</PC.BookBtn>
+          <PC.BookBtn>
+            <Link style={{textDecoration: "none", color: "white"}} to="/contact">
+            {data.button}
+            </Link>
+            </PC.BookBtn>
 
           </div>
         </PC.SecondHalf>

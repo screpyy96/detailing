@@ -19,7 +19,7 @@ export const ValorificaComponent = ({ data }) => {
     <div>
       <ContainerWrapper>
         <div>
-          <ImageComponent src={data.imgPath} alt="car" width={"100%"} height={'100%'} />
+          <ImageComponent src={data.imgPath} alt="polish suceava" width={"100%"} height={'100%'} />
         </div>
         <DescriptionContainer>
           <TitleStyle>{data.title}</TitleStyle>
@@ -64,7 +64,8 @@ export const ValorificaComponent = ({ data }) => {
         <ContainerWrapper>
           <AccordionText2 />
           <ImageComponent style={{width: "100%", height: "400px"}}
-          src="https://i.shgcdn.com/8ef12e42-d9f0-486c-aff1-9ac2c3b6963f/-/format/auto/-/preview/3000x3000/-/quality/lighter/"/>
+          alt="colantare suceava"
+          src="https://scontent.fias1-1.fna.fbcdn.net/v/t39.30808-6/325478881_740900417599102_8574081450617345345_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7ZrcJTTB3QsAX-msR58&_nc_ht=scontent.fias1-1.fna&oh=00_AfBMuryq_LrlMBzlx_CgpnE3tnInLiI4tKPulLuvVIAMxA&oe=641595DA"/>
         </ContainerWrapper>
         <Banner/>
         <Directie/>

@@ -92,7 +92,7 @@ function DrawerComponent() {
                 aria-labelledby="composition-button">
                 <Divider />
                 <MenuItem onClick={() => setOpenDrawer(false)}>
-                  <LinkStyle to="/valorificare">Valorificare</LinkStyle>
+                  <LinkStyle to="/detailing">Detailing</LinkStyle>
                 </MenuItem>
                 <MenuItem onClick={() => setOpenDrawer(false)}>
                   <LinkStyle to="/protejare">Protejare</LinkStyle>

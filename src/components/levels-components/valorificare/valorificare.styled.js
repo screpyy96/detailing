@@ -24,7 +24,7 @@ export const TabStyle = styled(Tab)`
 export const BoxStyled = styled(Box)`
   transform: translate(0, -2%);
   width: 100%;
-  padding: 0
+  padding: 0;
   @media screen and (max-width: 768px) {
     transform: translate(0, -1.8%);
     width: 100%;
@@ -32,12 +32,11 @@ export const BoxStyled = styled(Box)`
 `;
 
 export const ContainerWrapper = styled.div`
-// margin-top: 3rem;
   display: grid;
   background: white;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  padding-top: 2rem;
+  padding:2rem 0;
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
   }

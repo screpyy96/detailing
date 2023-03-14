@@ -85,7 +85,7 @@ export const InfoContainer = styled.div`
     font-size: 1.5rem;
 
     color: red;
-    padding: 1.6rem;
+    // padding: 1.6rem;
   }
 
   & p {

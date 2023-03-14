@@ -5,8 +5,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 import './carousel.css';
-import poza1 from '../../data/images/poza2.webp';
-import poza2 from '../../data/images/poza-colantare.jpeg';
+import poza2 from '../../data/images/poza2.webp';
+import poza1 from '../../data/images/poza-colantare.jpeg';
 import poza3 from '../../data/images/poza1.webp';
 
 const poze = [poza1, poza2, poza3];
@@ -28,7 +28,7 @@ const Carousele = () => {
           autoPlay={true}
           showArrows={false}
           stopOnHover={true}
-          showIndicators={false}
+          showIndicators={true}
           onSwipeMove={false}>
           
           {poze.map((p, key) => {

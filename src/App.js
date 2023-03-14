@@ -27,7 +27,7 @@ function App() {
         <Despre path="/despre"/>
         <Pachete path="/servicii" />
         <Contact path="/contact" />
-        <Valorificare path="/valorificare"  valorificare={valorificare}/>
+        <Valorificare path="/detailing"  valorificare={valorificare}/>
         <Protejare path="/protejare" protejare={protejare}/>
         <Mentinere path="/mentinere" mentinere={mentinere}/>
         <Colantare path="/colantare" />

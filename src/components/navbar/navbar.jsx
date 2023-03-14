@@ -153,7 +153,7 @@ const Navbar = () => {
                         aria-labelledby="composition-button"
                         onKeyDown={handleListKeyDown}>
                         <MenuItem onClick={handleClose}>
-                          <LinkStyle to="/valorificare">Valorificare</LinkStyle>
+                          <LinkStyle to="/detailing">Detailing</LinkStyle>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
                           <LinkStyle to="/protejare">Protejare</LinkStyle>
