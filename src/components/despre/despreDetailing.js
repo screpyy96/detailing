@@ -5,6 +5,8 @@ import {
   StyledBtn
 } from "../subcomponents/subcomponents.styled";
 import { Link } from "@reach/router";
+import { ImageDespre } from "./1stComponent.styled";
+import despreImg from '../../data/images/poza1.jpeg'
 
 const FirstComponent = () => {
   return (
@@ -37,11 +39,9 @@ const FirstComponent = () => {
             </Typography>
           </div>
           <div>
-            <img
-              src={item.image}
+            <ImageDespre
+              src={despreImg}
               alt="Detailing Suceava"
-              height="400"
-              width="100%"
               style={{ borderRadius: "10px" }}
             />
             <StyledBtn>

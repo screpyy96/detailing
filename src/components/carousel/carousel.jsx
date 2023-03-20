@@ -6,8 +6,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 import './carousel.css';
 import poza2 from '../../data/images/poza2.webp';
-import poza1 from '../../data/images/poza-colantare.jpeg';
-import poza3 from '../../data/images/poza1.webp';
+import poza1 from '../../data/images/poza-colantare.webp';
+import poza3 from '../../data/images/poza1.jpeg';
 
 const poze = [poza1, poza2, poza3];
 const Carousele = () => {

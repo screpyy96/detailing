@@ -1,5 +1,5 @@
 import Hero from "../../subcomponents/hero/hero";
-import image from "../../../data/images/poza-colantare.jpeg";
+import image from "../../../data/images/poza-colantare.webp";
 import {
   SecondHalf,
   Title,
@@ -39,7 +39,6 @@ const Colantare = () => {
             alignItems: "center",
             justifyContent: "center",
             width: "100%",
-            paddingTop: "1rem",
           }}
         >
           <ImageColantare src={image} />

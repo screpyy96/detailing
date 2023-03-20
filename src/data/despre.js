@@ -15,7 +15,7 @@ export const despre = [
 export const detailing = [
   {
     image:
-      "https://lh5.googleusercontent.com/p/AF1QipOWDE87il_kZWcsqLL8q5ROnQmPXiu06MwN4b-5=w1200-h969-p-k-no",
+      "../images/poza1.jpeg",
       slogan: "Stabilirea standardelor, o referință în industrie",
     detailingDesign:
       " Fiecare proces și tehnică este dezvoltat intern, începând de la etapele noastre de detaliere și compuși special amestecați, până la echipa noastră dedicată de design PPF. Fiecare panou al fiecărui kit este modelat, proiectat și produs la sediul nostru central, ceea ce înseamnă un potrivire perfectă și protecție optimă care nu este disponibilă nicăieri altundeva.",

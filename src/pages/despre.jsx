@@ -5,7 +5,7 @@ import FirstComponent from '../components/despre/1stComponent';
 import {despre} from '../data/despre.js';
 import DespreDetailing from '../components/despre/despreDetailing';
 import Banner from '../components/banner-social/banner';
-import hala from '../data/images/garaj-suceava-detailing.webp'
+import hala from '../data/images/garaj-suceava-detailing.jpeg'
 import Directie from '../components/directii/directie';
 
 const Despre = () => {

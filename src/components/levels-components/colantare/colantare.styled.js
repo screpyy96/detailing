@@ -2,17 +2,16 @@ import styled from "styled-components";
 
 export const ImageColantare = styled.img`
 width: 100%;
-height: 70%;
+height: 100%;
 
   @media screen and (max-width: 768px) {
     width: 100%;
     margin: 0 auto;
-    height: 300px;
+    height: 100%;
 
 `
 
 export const Spliter = styled.div`
-// padding-top: 1rem;
 width: 100%;
 height: 50px;
 background: #fafafa;
