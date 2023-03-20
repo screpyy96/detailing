@@ -2,7 +2,7 @@ import Hero from "../../subcomponents/hero/hero";
 import HotBtns from "./hot-btns/hotButtons";
 import * as PC from "./protejare.styled";
 import { Grid, Typography } from "@material-ui/core";
-import image from "../../../assets/images/despre.webp"
+import image from "../../../data/images/cammaro.jpeg"
 import AccordionText from "../accordion/accordion";
 import Banner from "../../banner-social/banner";
 import Directie from "../../directii/directie";
@@ -38,7 +38,7 @@ const ProtejareComponent = ({ data }) => {
           </div>
         </PC.SecondHalf>
       </PC.ContainerWrapper>
-      <Hero  image={image} />
+      {/* <Hero  image={image} /> */}
  
         <Grid container spacing={2} style={{  width: "100%", margin: "0 auto", background: "#f4f4f4", padding: "3rem"}}>
           {/* left side text */}

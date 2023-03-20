@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Hero from "../components/subcomponents/hero/hero"
-import image from "../assets/images/despre.webp"
+import image from "../data/images/cammaro.jpeg"
 import FirstComponent from '../components/despre/1stComponent';
 import {despre} from '../data/despre.js';
 import DespreDetailing from '../components/despre/despreDetailing';
@@ -16,7 +16,7 @@ const Despre = () => {
 
   return (
     <div>
-      <Hero style={{height: "50%"}} data="Despre | D&S Detailing" image={image} />
+      {/* <Hero style={{height: "50%"}} data="Despre | D&S Detailing" image={image} /> */}
       <FirstComponent despre={despre} hala={hala}/>
       <DespreDetailing despre={despre}/>
       <Banner/>

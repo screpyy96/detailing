@@ -17,7 +17,7 @@ function CeramicComponent({ data }) {
       <CeramicaWrapper>
         <TitleCeramic>{data.title}</TitleCeramic>
         <div>
-          <img src={data.imgPath} alt="" />
+          <img src={data.imgPath} alt="ceramica suceava" />
         </div>
         <div style={{ borderBottom: "2px solid red" }}>
           <ParagraphSize>{data.price}</ParagraphSize>

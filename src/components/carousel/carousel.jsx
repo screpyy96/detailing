@@ -8,8 +8,9 @@ import './carousel.css';
 import poza2 from '../../data/images/poza2.webp';
 import poza1 from '../../data/images/poza-colantare.webp';
 import poza3 from '../../data/images/poza1.jpeg';
+import poza4 from '../../data/images/cammaro.jpeg';
 
-const poze = [poza1, poza2, poza3];
+const poze = [poza1, poza2, poza3, poza4];
 const Carousele = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Carousele = () => {
         <link rel="preload" as="image" href={poza1} />
         <link rel="preload" as="image" href={poza2} />
         <link rel="preload" as="image" href={poza3} />
+        <link rel="preload" as="image" href={poza4} />
       </Helmet>
 
       <div className="filter height">
@@ -27,7 +29,6 @@ const Carousele = () => {
           infiniteLoop={true}
           autoPlay={true}
           showArrows={false}
-          stopOnHover={true}
           showIndicators={true}
           onSwipeMove={false}>
           

@@ -103,7 +103,7 @@ const Navbar = () => {
       <CssBaseline />
       <Toolbar>
         <Typography variant="h1" className={classes.logo}>
-          Detailing Auto Suceava
+          Detailing Auto D&S
         </Typography>
         {isMobile ? (
           <DrawerComponent />
@@ -159,7 +159,7 @@ const Navbar = () => {
                           <LinkStyle to="/protejare">Protejare</LinkStyle>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
-                          <LinkStyle to="/mentinere">Mentinere</LinkStyle>
+                          <LinkStyle to="/intretinere">Intretinere</LinkStyle>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
                           <LinkStyle to="/colantare">Colantare</LinkStyle>

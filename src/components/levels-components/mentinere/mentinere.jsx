@@ -75,7 +75,7 @@ const Mentinere = ({ mentinere }) => {
   };
   return (
     <div>
-      <Hero data="Mentinere" image={image} />
+      <Hero data="Intretinere" image={image} />
       <BoxStyled sx={{ typography: "body1" }} style={{ transform: "translate(0, -3.5%)" }}>
         <TabContext value={value}>
           {isMobile ? (
@@ -87,7 +87,7 @@ const Mentinere = ({ mentinere }) => {
               onChange={handleChange}
               aria-label="full width tabs example"
             >
-              <TabStyle label="Spalare " value="1" />
+              <TabStyle label="Mentenanta " value="1" />
               <TabStyle label="Ceramic Coating" value="2" />
             </TabListStyle>
           ) : (
@@ -99,7 +99,7 @@ const Mentinere = ({ mentinere }) => {
               onChange={handleChange}
               aria-label="full width tabs example"
             >
-              <TabStyle label="Spalare" value="1" />
+              <TabStyle label="Mentenanta" value="1" />
               <TabStyle label="Ceramic Coating" value="2" />
             </TabListStyle>
           )}

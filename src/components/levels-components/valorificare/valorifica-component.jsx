@@ -11,6 +11,7 @@ import {
   SubTitle,
   TitleStyle
 } from './valorificare.styled';
+import audiImg from '../../../data/images/audi.jpeg'
 
 export const ValorificaComponent = ({ data }) => {
 
@@ -61,12 +62,11 @@ export const ValorificaComponent = ({ data }) => {
           </ListContainer>
         </DescriptionContainer>
       </ContainerWrapper>
-        <ContainerWrapper>
-          <AccordionText2 />
-          <ImageComponent style={{width: "100%", height: "400px"}}
-          alt="colantare suceava"
-          src="https://scontent.fias1-1.fna.fbcdn.net/v/t39.30808-6/325478881_740900417599102_8574081450617345345_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7ZrcJTTB3QsAX-msR58&_nc_ht=scontent.fias1-1.fna&oh=00_AfBMuryq_LrlMBzlx_CgpnE3tnInLiI4tKPulLuvVIAMxA&oe=641595DA"/>
-        </ContainerWrapper>
+
+          <div style={{padding: "2rem 0"}}>
+            <AccordionText2 />
+          </div>
+
         <Banner/>
         <Directie/>
     </div>

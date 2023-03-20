@@ -11,6 +11,12 @@ const StyledImg = styled.div`
   transform-style: preserve-3d;
   height: 100%;
   width: 100%;
+  min-height: 100%;
+
+  img {
+    height: 100%;
+  }
+
   &:hover {
     transform: rotateY(0.5turn);
   }

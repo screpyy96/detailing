@@ -31,7 +31,8 @@ export const SpanBlock = styled.span`
   width: 100%;
   height: 100px;
   position: absolute;
-  background: #fafafa;
+  background: red;
+  // background: #fafafa;
   top: 180%;
   left: 10%;
   z-index: 99;

@@ -1,36 +1,29 @@
 export const cards = [
   { 
     title: 'Detailing',
-    frontImg:
-      'https://i.shgcdn.com/545091da-9d3f-42e0-9bc4-a8d5a9f5b5b7/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
-    description:
-      'Serviciile noastre de detailing ofer full aspect asupra tratamentelor pentru valorificarea, restaurare si viitoarele mentineri ale masinii',
+    frontImg:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t1.15752-9/334068673_167226875785444_1022728927278965245_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lEC1B9MiSjIAX-L1ka8&_nc_ht=scontent.fbcm1-1.fna&oh=03_AdQcUJ8xK0JpykXzKbvYAYn-h2wtmnnKfkA1g-nLcqUVIg&oe=643FC393",
+    description: "Pentru ca vrei ce este mai bun pentru masina ta!",
     backImg: '',
     urlPath: '/detailing'
   },
   {
     title: 'Protejare',
-    frontImg:
-      'https://i.shgcdn.com/ec2da442-5a27-440e-942e-f3a18059e2cb/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
-    description:
-      'With our design paint protection film, we can cover any painted, carbon fibre or smooth finished paint of the car, even interior trims',
+    frontImg:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/316530839_561365519326697_7700673239863719367_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=X4sgk3Z_VUYAX8R8H8o&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfDN2HQJYy6w37yjlWR8utMAu6rW2SQCakwRVJTf2eOmHA&oe=641CD482",
+    description:"Pentru ca vrei sa iti protejezi investitia",
     backImg: '',
     urlPath: '/protejare'
   },
   {
-    title: 'Mentinere',
-    frontImg:
-      'https://i.shgcdn.com/531fbc5c-8c09-45d1-8b44-9a716e120d1b/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
-    description:
-      'Serviciile noastre de detailing ofer full aspect asupra tratamentelor pentru valorificarea, restaurare si viitoarele mentineri ale masinii',
+    title: 'Intretinere',
+    frontImg:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/333315457_3335604106705116_5650798533101827531_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=VpLWFQnl6-8AX-20QAK&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfAKZHyF7CLhypiaeoTJvcAbf8EO20eh-WovZQHo4ls8Kw&oe=641D95D4",
+    description:"Pentru ca iti pasa de masina ta",
     backImg: '',
-    urlPath: '/mentinere'
+    urlPath: '/intretinere'
   },
   {
     title: 'Colantare',
-    frontImg: "https://i.shgcdn.com/8849205b-d798-4920-977b-90282f05617a/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
-    description:
-      'Serviciile noastre de colantare ofera un aspect intreg asupra colantarii, restaurare si viitoarele mentineri ale masinii',
+    frontImg: "https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/325567779_1330347354409819_6534555570445221867_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vlifqgem3lQAX8tMVs_&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfCu_tf3_i94forqwvsn3VssntHhnDBKrQ7N5rJzIgbtSg&oe=641D8AAC",
+    description:"Pentru ca vrei sa fi diferit",
     backImg: '',
     urlPath: '/colantare'
   }
@@ -61,8 +54,7 @@ export const valorificare = [
     title: 'Level 1 - Protejarea Detaliilor',
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
     header: '21 DE STAGII DESPRE PROCESUL DE CURATARE:',
-    imgPath:
-      'https://i.shgcdn.com/8152b67e-9de6-4ffc-a37c-25cb1217482c/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+    imgPath:"https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/334881126_896920234940515_3223367586654480257_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=gkzZA1Tyez4AX_xEK90&_nc_ht=scontent.fias1-1.fna&oh=03_AdTumcXbO1JlhVARtxRTPRWEtix2Qss7j8jgZ0Kw6QK5RA&oe=64404DDB",
 
     description: [
       [
@@ -111,7 +103,7 @@ export const valorificare = [
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
     header: 'PROCESUL DE CURĂȚARE Detailing Auto Suceava ÎN MAI MULTE ETAPE ETAPE, INCLUSIV:',
     imgPath:
-      'https://i.shgcdn.com/297bf929-a9fe-4ae1-afdc-acb9b92042f7/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+      'https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/336418506_227586626500849_3529892785416744887_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=qB0fEQ9UL-4AX82upCq&_nc_ht=scontent.fias1-1.fna&oh=03_AdSAIqig-6hIGnoD3k1RBt6gTJJWKqF_R6TjIJ47uBcEyw&oe=6440361F',
     description: [
       [
         'Un strat de spumă albă groasă este aplicat pe vehicul pentru a ajuta la slăbirea, ridicarea și îndepărtarea particulelor de murdărie de pe vopsea fără a induce micro zgârieturi.'
@@ -148,7 +140,7 @@ export const valorificare = [
     id: 3,
     title: 'Level 3 - Corectarea Detaliilor',
     subTitle: ' CORECTAREA VOPSEA – 80-95% FACTOR DE CORECTARE',
-    imgPath: "https://i.shgcdn.com/f432b83b-7fb0-4201-8036-08b66e7933c0/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+    imgPath: "https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/334370244_3478807955719118_8949383428508045538_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zAuouYlFAzgAX_J0FAk&_nc_ht=scontent.fias1-1.fna&oh=03_AdSVDcM0yUt6nwR1iKSEvpXEfnJBJFAflDCKj1skyB_U-Q&oe=644055DF",
     description: [
       [
         'Grosimea vopselei este măsurată cu ajutorul unui indicator de adâncime a vopselei cu ultrasunete.'
@@ -195,7 +187,7 @@ export const valorificare = [
     subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
     // header: '21 stagii DESPRE PROCESUL DE CURATARE:',
     imgPath:
-      'https://i.shgcdn.com/f84730ff-b168-4edf-bf06-55cb317626d5/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
+      'https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/336186062_873303877096346_1798815938114783976_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=7pS2Hx2mcuYAX_BMlYf&_nc_ht=scontent.fias1-1.fna&oh=03_AdSqniJp5dBqB3Ke8TlMp_JMXAKYq_IfD7OYFsivn_L96g&oe=644034CE',
     description: [
       ['Închiderile ușilor sunt curățate.'],
       [

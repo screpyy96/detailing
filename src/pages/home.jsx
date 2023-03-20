@@ -21,9 +21,9 @@ const Home = ({title}) => {
       <Carousele />
       <HeroText />
       <Cards />
-      <SubComponents />
-      <br />
-      <br />
+      {/* <SubComponents /> */}
+      {/* <br />
+      <br /> */}
       <Banner/>
      <Directie/>
     </div>

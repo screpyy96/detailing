@@ -4,27 +4,32 @@ import { cards } from '../../data/db';
 import { StyledImg } from './card.styled';
 import { LinkStyle } from '../navbar/navbar.style';
 
+export const Card = ({cardProps}) => {
+  const {urlPath, frontImg, title, description} = cardProps;
+
+  return (
+    <LinkStyle to={urlPath}>
+      <div style={{ width: '100%' }}>
+        <div className="card">
+          <StyledImg key={frontImg} image={frontImg}>
+            <div className="front">
+              <h3 className="title">{title}</h3>
+            </div>
+            <div className="back">
+              <p className="description">{description}</p>
+            </div>
+          </StyledImg>
+        </div>
+      </div>
+    </LinkStyle>
+  );
+};
+
 export const Cards = () => {
   return (
     <div className="card-wrapper">
-      {cards.map((i, idx) => {
-        return (
-          <div key={idx} style={{ width: '100%' }}>
-            <LinkStyle to={i.urlPath}>
-              <div className="card">
-                <StyledImg key={i} image={i.frontImg}>
-                  <div className="front">
-                    <h3 className="title">{i.title}</h3>
-                  </div>
-                  <div className="back">
-                    <p className="description">{i.description}</p>
-                  </div>
-                </StyledImg>
-              </div>
-            </LinkStyle>
-          </div>
-        );
-      })}
+      {cards.map((card, idx) => <Card key={idx} cardProps={card} />)}
     </div>
   );
 };
+

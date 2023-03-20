@@ -7,7 +7,7 @@ export const HeroText = () => {
       <div className="main-title">
         <span className="title-hero">Detailing</span>
         <span className="title-hero">Protejare</span>
-        <span className="title-hero">Mentinere</span>
+        <span className="title-hero">Intretinere</span>
         <span className="title-hero">Colantare</span>
       </div>
       <div className="text-hero">

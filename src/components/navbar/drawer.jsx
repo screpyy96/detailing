@@ -98,7 +98,7 @@ function DrawerComponent() {
                   <LinkStyle to="/protejare">Protejare</LinkStyle>
                 </MenuItem>
                 <MenuItem onClick={() => setOpenDrawer(false)}>
-                  <LinkStyle to="/mentinere">Mentinere</LinkStyle>
+                  <LinkStyle to="/intretinere">Intretinere</LinkStyle>
                 </MenuItem>
                 <MenuItem onClick={() => setOpenDrawer(false)}>
                   <LinkStyle to="/colantare">Colantare</LinkStyle>
