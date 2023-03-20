@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import Hero from "../components/subcomponents/hero/hero"
-import image from "../data/images/cammaro.jpeg"
+// import Hero from "../components/subcomponents/hero/hero"
+// import image from "../data/images/cammaro.jpeg"
 import FirstComponent from '../components/despre/1stComponent';
 import {despre} from '../data/despre.js';
 import DespreDetailing from '../components/despre/despreDetailing';

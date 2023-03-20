@@ -11,7 +11,7 @@ import {
   SubTitle,
   TitleStyle
 } from './valorificare.styled';
-import audiImg from '../../../data/images/audi.jpeg'
+// import audiImg from '../../../data/images/audi.jpeg'
 
 export const ValorificaComponent = ({ data }) => {
 

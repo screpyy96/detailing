@@ -1,8 +1,8 @@
-import Hero from "../../subcomponents/hero/hero";
+// import Hero from "../../subcomponents/hero/hero";
 import HotBtns from "./hot-btns/hotButtons";
 import * as PC from "./protejare.styled";
 import { Grid, Typography } from "@material-ui/core";
-import image from "../../../data/images/cammaro.jpeg"
+// import image from "../../../data/images/cammaro.jpeg"
 import AccordionText from "../accordion/accordion";
 import Banner from "../../banner-social/banner";
 import Directie from "../../directii/directie";

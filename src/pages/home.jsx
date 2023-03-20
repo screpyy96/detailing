@@ -4,7 +4,7 @@ import { Cards } from '../components/card/card';
 import Carousele from '../components/carousel/carousel';
 import Directie from '../components/directii/directie';
 import { HeroText } from '../components/hero-text/hero-text';
-import { SubComponents } from '../components/subcomponents/subComponents';
+// import { SubComponents } from '../components/subcomponents/subComponents';
 
 
 const Home = ({title}) => {
