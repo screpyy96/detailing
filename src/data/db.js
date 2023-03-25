@@ -8,21 +8,21 @@ export const cards = [
   },
   {
     title: 'Protejare',
-    frontImg:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/316530839_561365519326697_7700673239863719367_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=X4sgk3Z_VUYAX8R8H8o&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfDN2HQJYy6w37yjlWR8utMAu6rW2SQCakwRVJTf2eOmHA&oe=641CD482",
+    frontImg: "https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/337088670_611461334175066_5576812507374162170_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=4hNk5gsY8y8AX_kDoVU&_nc_ht=scontent.fias1-1.fna&oh=03_AdRX2RjwMbZsUq-ckfnupG4oWnn0PFbrOQRBja5iEgL-Qg&oe=64463AD1",
     description:"Pentru ca vrei sa iti protejezi investitia",
     backImg: '',
     urlPath: '/protejare'
   },
   {
     title: 'Intretinere',
-    frontImg:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/333315457_3335604106705116_5650798533101827531_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=VpLWFQnl6-8AX-20QAK&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfAKZHyF7CLhypiaeoTJvcAbf8EO20eh-WovZQHo4ls8Kw&oe=641D95D4",
+    frontImg:"https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/336620624_3374390036212244_4058104756518523851_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=sxMY8Fn4tHgAX8tsVXh&_nc_ht=scontent.fias1-1.fna&oh=03_AdRrV8-nky-vMJMqHRLxtO4MZ3GNuE1g3Q7Y5LWD8ULJqw&oe=64462041",
     description:"Pentru ca iti pasa de masina ta",
     backImg: '',
     urlPath: '/intretinere'
   },
   {
     title: 'Colantare',
-    frontImg: "https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/325567779_1330347354409819_6534555570445221867_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vlifqgem3lQAX8tMVs_&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfCu_tf3_i94forqwvsn3VssntHhnDBKrQ7N5rJzIgbtSg&oe=641D8AAC",
+    frontImg: "https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/334869412_781890496379476_577992170501319044_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=NpwFcPyq9SwAX9ZVdRv&_nc_ht=scontent.fias1-1.fna&oh=03_AdRlpyJRDsER6Wwt0JgoYVwJwOI6SYX63_3Rdm50F-bAhw&oe=64463FC9",
     description:"Pentru ca vrei sa fi diferit",
     backImg: '',
     urlPath: '/colantare'
