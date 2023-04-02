@@ -40,7 +40,7 @@ const AccordionText = () => {
     <div className={classes.root}>
       <Accordion expanded={expanded === "panel1"} onChange={handleChange("panel1")}>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>Beneficiile PPE</Typography>
+          <Typography className={classes.heading}>Beneficiile PPF</Typography>
         </AccordionSummary>
         <AccordionDetails style={{ display: "block" }}>
           <Typography className={classes.title}>
@@ -77,10 +77,7 @@ const AccordionText = () => {
         </AccordionSummary>
         <AccordionDetails>
           <div>
-            <Typography>
-            Tradițional, filmul de protecție PPF era instalat pe arcurile roților, marginea din față a capotei sau panourile frontale ale mașinii. În prezent, mulți clienți doresc să acopere întreaga mașină. Calitatea filmelor moderne și procesele noastre de proiectare și instalare sunt atât de bune încât chiar are sens să protejați întreaga mașină.
-            </Typography>
-            <br></br>
+            
             <Typography>
             Film de protectie pentru vopsea poate proteja masina impotriva deteriorarii, cum ar fi cioburile de piatra, zgarieturi din parcari si exfolieri si zgarieturi zilnice.
             </Typography>
@@ -91,11 +88,11 @@ const AccordionText = () => {
             <br></br>
             <h3 >Unde apar daunele:</h3>
             <br />
-            <h3> (bari, capota, aripi frontale, oglinzi laterale, usi inferioare, arcuri roata, praguri, faruri, usi inferioare, oglinzi laterale).</h3>
+            <h3> (bara fata-spate, capota, aripi frontale, parbriz, marginile usilor, praguri, faruri, oglinzi laterale).</h3>
             <br />
-            <h3>Zone cu impact mediu: (aripi spate, usi superioare).</h3>
+            <h3>Zone cu impact mediu: (aripi spate, usile).</h3>
             <br />
-            <h3>Zone cu impact redus: (capotă portbagaj, capac motor).</h3>
+            <h3>Zone cu impact redus: (portbagaj, plafon).</h3>
           </div>
           <img src="https://i.shgcdn.com/98143c49-880a-4761-bb50-379380c592fd/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="detailing suceava"/>
           <br></br>
@@ -137,15 +134,11 @@ const AccordionText = () => {
         </li>
         <br />
         <li>
-        Odată ce filmul s-a întărit, puteți să spălați mașina ca de obicei (dacă este posibil, folosiți metoda celor două găleți și o mănușă lambswool pentru spălat), dacă utilizați un pistol de presiune, asigurați-vă că păstrați lancea spray-ul cel puțin la 3 metri distanță de suprafața filmului, în special marginile, deoarece presiunea poate ridica marginea filmului; recomandăm un șampon neutru la PH și produse de îngrijire a mașinii precum Gtechnic sau Swissvax.
+        Odată ce filmul s-a întărit, puteți să spălați mașina ca de obicei (dacă este posibil, folosiți metoda celor două găleți și o mănușă lambswool pentru spălat), dacă utilizați un pistol de presiune, asigurați-vă că păstrați lancea spray-ul cel puțin la 40 cm distanță de suprafața filmului, în special marginile, deoarece presiunea poate ridica marginea filmului; recomandăm un șampon neutru la PH și produse de îngrijire a mașinii precum Gtechnic sau Swissvax.
         </li>
         <br />
         <li>
         Dacă există insecte sau excremente de pasăre pe mașina ta, este important să le îndepărtezi cât mai curând posibil. Deși PPF are rolul de a proteja suprafața mașinii tale, stratul superior are o compoziție similară cu lacul original al mașinii tale și poate fi afectat de acizi care pătrund în el. Așadar, recomandăm să acționezi la timp și să îndepărtezi cu grijă orice murdărie de pe suprafața mașinii.
-        </li>
-        <br />
-        <li>
-        Dacă îți place să îți lustruiești sau sa îți fațetezi mașina, poți continua să faci acest lucru pe panourile acoperite cu PPF, dar trebuie să fii mai atent la selecția produselor. Polisantele cu baza de rășină, solvent sau abrazive pot marca filmul, lăsând o ceață sau deteriorând capacitățile de autovindecare și trebuie evitate. Se poate folosi o ceară naturală de înaltă calitate cum ar fi Carnauba, desigur dacă nu ești sigur, echipa noastră poate recomanda produse specifice.
         </li>
         <br />
         <li>Micile zgârieturi din folia de protecție se vor vindeca treptat în timp, dar dacă dorești să accelerezi procesul atunci poți turna apă călduță (nu fierbinte) pe zona afectată, acest lucru va ajuta stratul superior al peliculei să revină la starea sa originală.</li>

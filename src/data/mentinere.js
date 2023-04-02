@@ -8,16 +8,16 @@ export const mentinere = [
     serviceDescription: 'Spalarile de intretinere sunt o parte cruciala pentru pastrarea integritatii tratamentului initial. Spalarile regulate includ toate procesele necesare pentru a mentine longevitatea straturilor protectoare. De asemenea, acestea previn orice deteriorare ulterioara a vopselei masinii dumneavoastra, cum ar fi zgarieturile si ciupiturile.',
     serviceDescription2: 'În cadrul atelierului nostru de detailing auto, o verificare esențială este efectuată pentru a menține integritatea acoperirii de protecție. Acest proces critic ne permite să ne concentrăm mai mult pe eliminarea impurităților de pe suprafața mașinii, să o împrospătăm, să tratăm pielea și să o protejam ',
     contentTitle: 'Exterior',
-    subTitleExterior: "21 DE ETAPTE IN PROCESUL DE CURATARE D&S INCLUSIV:",
+    subTitleExterior: "ETAPELE PROCESULUI DE SPALARE D&S:",
     desc1:
-    'Vehiculul este spalat cu sampon neutru PH folosind sistemul cu doua galete cu filtru de nisip pentru a preveni transportarea pietrelor si a particulelor ascutite pe masina prin manusile de spalare.',
+    'Vehiculul este spalat cu sampon neutru PH folosind sistemul cu doua galeti cu filtru de nisip pentru a preveni transportarea rezidurilor si a particulelor ascutite pe masina prin manusile de spalare.',
     desc2:
-    'Spuma de zapada este aplicata pentru a ridica orice murdarire si nisip de pe vopseaua automobilului.',
+    'Spuma este aplicata pentru a ridica orice murdarire si nisip de pe vopseaua automobilului.',
   
   desc3:
     'Rotile sunt curatate cu un cleaner pe baza de citrice neacide si perii speciale din par de cal.',
-  desc4: "Usi, arcuri si sectiunile inferioare sunt curatate (unde se poate).",
-  desc5: "Vehiculul este uscat cu ajutorul unor carpe din microfibra.",
+  desc4: "Usi, aripile si sectiunile inferioare sunt curatate.",
+  desc5: "Vehiculul este uscat cu ajutorul unor lavete din microfibra.",
   
   subTitleInterior: "Interior",
   descInterior: "Geamurile sunt curatate pe partea interioara.",

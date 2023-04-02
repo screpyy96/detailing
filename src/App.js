@@ -14,7 +14,7 @@ import Mentinere from './components/levels-components/mentinere/mentinere';
 import {mentinere} from './data/mentinere'
 import Colantare from './components/levels-components/colantare/colantare';
 
-const title  = "Detailing Auto Suceava - Acasa"
+const title  = "Polish | Colantare | Folie de Protectie | Detailing Suceava - Acasa"
 function App() {
 
 

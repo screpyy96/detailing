@@ -56,7 +56,13 @@ const LinkStyle = styled(Link)`
   width: 100%;
   list-style-type: none;
   color: black;
+  @media screen and (max-width: 768px) {
+    &:last-child {
+      margin-bottom: 4rem;
+    }
+  }
 `;
+
 const AccordionStyle = styled.p`
   font-size: 20px;
 `;

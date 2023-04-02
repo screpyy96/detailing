@@ -47,17 +47,17 @@ const Colantare = () => {
           <Title>Detalii Colantare</Title>
           <Subtitle>Specificare Serviciu</Subtitle>
           <br />
-          <ExtraSubtitle>Durata Serviciului: 7 zile</ExtraSubtitle>
+          <ExtraSubtitle>Durata Serviciului: 5-7 zile</ExtraSubtitle>
           <ExtraSubtitle>
             include: La D&S ne specializăm în decorațiuni și autocolante pentru
             masini. Oferim două niveluri de colantari cu folie de vinil pentru
             protecția mașinii tale: instalarea autocolantelor de protecție și a
             logo-urilor; și schimbarea completă de culoare cu autocolante de
-            protecție și logo-uri.{" "}
+            protecție și logo-uri.
           </ExtraSubtitle>
           <Title>Detalii Colantare</Title>
           <ExtraSubtitle>
-            La Detailing Auto Suceava suntem capabili să proiectăm și să
+            La Detailing Auto D&S suntem capabili să proiectăm și să
             producem decorațiuni și autocolante pentru mașini de tot felul la
             sediul nostru, instalând autocolante/accente și logo-uri pe culoarea
             existentă sau schimbând complet culoarea mașinii folosind folia de

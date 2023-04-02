@@ -20,10 +20,8 @@ const Home = ({title}) => {
     <div>
       <Carousele />
       <HeroText />
-      <Cards />
-      {/* <SubComponents /> */}
-      {/* <br />
-      <br /> */}
+        <Cards />
+       
       <Banner/>
      <Directie/>
     </div>

@@ -50,6 +50,9 @@ justify-items: center;
   /* filter: brightness(0.5); */
 }
 
+/* .front, h3:last-child {
+  margin-bottom: 3rem;
+} */
 .title {
   transform: translateZ(5rem);
   font-size: 1.4rem;

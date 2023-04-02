@@ -1,13 +1,12 @@
 export const despre = [
   {
     image:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/322108642_1548216295665582_5875867619231913169_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ajAv5_YI6UQAX-wAzqh&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfBUzBvgg0yuwMe1S6doSXA8v5wHrz9NkdmW0bDpEaNu0A&oe=640E6978",
-    descriere:
-      "Detailing Auto Suceava este cel mai exclusivist specialist în film de protecție a vopselei și a detaliilor din Romania, care se ocupă de cel mai mare volum de supermașini din întreaga lume.",
+    descriere: "Detailing Auto D&S este cel mai exclusivist atelier din industria auto specializat  in restaurare si protectie din Bucovina, care se ocupă de cel mai mare volum de supermașini din întreaga zona.",
     facilitati:
-      "Facilitățile noastre de ultimă generație găzduiesc unii dintre cei mai calificați detalieri și instalatori de folie de protecție a vopselei din lume. Acest mediu, împreună cu expertiza noastră, ne permite să oferim clienților noștri cea mai înaltă calitate posibilă.",
+      "Facilitatea noastra de ultimă generație gazduieste unii dintre cei mai calificați detalieri și instalatori de folie de protecție a vopselei din tara. Acest mediu, împreună cu expertiza noastră, ne permite să oferim clienților noștri cea mai înaltă calitate posibilă.",
     pachet_solutii:
-      "La D&S oferim un pachet total de soluții de îngrijire a mașinii, care încorporează totul, de la îmbunătățire și protecție până la întreținere.",
-    slogan: "„Artă și Știință în Detaliile Auto”",
+      "La D&S oferim un pachet total de soluții de îngrijire a mașinii, care ofera totul de la îmbunătățire și intretinere până la protectie.",
+    slogan: "„Artă și Știință în Detailing Auto”",
     scop: "Detailing Auto Suceava există pentru a declanșa emoții pozitive; compania s-a născut pentru a rescrie modul în care proprietarii de mașini ar trebui să mențină aspectul vehiculelor lor, pentru a recrea rezultate de prezentare a mașinilor care îi vor satisface chiar și pe cei mai exigenți clienți.",
   },
 ];

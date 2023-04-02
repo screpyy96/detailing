@@ -126,7 +126,7 @@ export const DirectionBtn = styled.button`
   justify-content: center;
   background: red;
   letter-spacing: 2px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   border: 0;
   width: 71%;
 

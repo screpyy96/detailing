@@ -27,6 +27,8 @@ export const StyledElfsightWidget = styled(ElfsightWidget)`
   }
 `;
 
+
+
 export const SpanBlock = styled.span`
   width: 100%;
   height: 100px;

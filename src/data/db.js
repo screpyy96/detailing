@@ -51,37 +51,35 @@ export const subcomponents = [
 export const valorificare = [
   {
     id: 1,
-    title: 'Level 1 - Protejarea Detaliilor',
-    subTitle: ' Exterior – Curatare/Clatire/Decontaminare.',
-    header: '21 DE STAGII DESPRE PROCESUL DE CURATARE:',
+    title: 'Nivelul 1 - Protejarea Detaliilor',
+    subTitle: 'Exterior – Curățare/Clătire/Decontaminare',
+    header: 'La Garajul nostru de detailing de mașini, ne dedicăm protejării vehiculului dumneavoastră încă de la începutul procesului de spălare. În acest sens, utilizăm un sistem inovator de găleți de protecție dublă pentru a preveni transportarea pietrelor și a particulelor cu muchii ascuțite în mașină prin intermediul mănușii de spălat. Astfel, vă asigurăm o curățare eficientă și sigură a vehiculului dumneavoastră.',
     imgPath:"https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/334881126_896920234940515_3223367586654480257_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=gkzZA1Tyez4AX_xEK90&_nc_ht=scontent.fias1-1.fna&oh=03_AdTumcXbO1JlhVARtxRTPRWEtix2Qss7j8jgZ0Kw6QK5RA&oe=64404DDB",
 
     description: [
       [
-        'Vehiculul este spălat cu șampon cu PH neutru folosind un sistem de găleți de protecție dublă pentru a preveni transportarea pietrelor și a particulelor cu muchii ascuțite în mașină prin intermediul mănușii de spălat.'
+        'În procesul de curățare, folosim un șampon cu pH neutru pentru a proteja vopseaua de eventuale daune. Roțile sunt curățate cu un produs de calitate neacid pe bază de citrice și perii special concepute pentru a nu zgâria jantele. Închiderile ușilor, capacul benzinei, arcadele și părțile secțiunilor inferioare vor fi curățate (acolo unde sunt accesibile). Vehiculul este uscat manual cu prosoape din microfibră adânci pentru a preveni zgârierea suprafețelor.'
       ],
-      [
-        'Roțile sunt curățate folosind un produs de curățare neacid pe bază de citrice și perii special concepute pentru păr de cal.'
+      [ 'Pentru a elimina contaminanții de suprafață lipiți, utilizăm o bară de argilă (ușoară sau agresivă) care ajută la obținerea unei finisări netede și strălucitoare. Apoi, aplicăm un solvent de corp pentru a dizolva și îndepărta gudronul, murdăria de drum, depunerile de rouă de miere și stropi de insecte și alte substanțe pe bază de petrol. Anvelopele sunt tratate cu un produs special pentru a le proteja și a le oferi o strălucire naturală.'
       ],
-      [
-        'Închiderile ușilor, capacul benzinei, arcadele și părțile secțiunilor inferioare vor fi curățate (acolo unde sunt accesibile).'
+      ['Materialele plastice exterioare și ornamentele ușilor sunt îngrijite și protejate cu produse de calitate pentru a evita deteriorarea cauzată de razele UV și de alți factori externi. Echipa noastră vă poate oferi recomandări personalizate pentru acoperirile ceramice potrivite pentru vopsea, geamuri și jante.'
       ],
-      ['Vehiculul se usucă manual cu prosoape din microfibră adânci.'],
-      [
-        'Vopseaua este tratată cu o bară de argilă (ușoară sau agresivă) îndepărtând contaminanții de suprafață lipiți.'
-      ],
-      [
-        'Solventul de corp este aplicat pentru a dizolva și îndepărta gudronul, murdăria de drum, depunerile de rouă de miere și stropi de insecte și alte substanțe pe bază de petrol.'
-      ],
-      ['Anvelopele sunt îmbrăcate.'],
-      [' Materialele plastice exterioare și ornamentele ușilor sunt îmbrăcate.']
+      // ['Vehiculul se usucă manual cu prosoape din microfibră adânci.'],
+      // [
+      //   'Vopseaua este tratată cu o bară de argilă (ușoară sau agresivă) îndepărtând contaminanții de suprafață lipiți.'
+      // ],
+      // [
+      //   'Solventul de corp este aplicat pentru a dizolva și îndepărta gudronul, murdăria de drum, depunerile de rouă de miere și stropi de insecte și alte substanțe pe bază de petrol.'
+      // ],
+      // ['Anvelopele sunt îmbrăcate.'],
+      // [' Materialele plastice exterioare și ornamentele ușilor sunt îmbrăcate.']
     ],
     sealent:
       'Vorbiți cu echipa noastră pentru recomandări privind acoperirile ceramice pentru vopsea, geamuri și jante. ',
     subDescription: {
       title: 'Interior',
       description: [
-        ['Mocheta aspirata'],
+        ['Interiorul vehiculului dumneavoastră primește aceeași atenție la detalii ca și exteriorul. Mocheta este aspirată, iar geamurile sunt curățate atent pe interior. Suprafețele și finisajele interioare sunt curățate cu produse de calitate aerospațială, asigurând o curățare completă și o protecție adecvată.'],
         ['Geamurile sunt curatate pe interior'],
         ['Suprafețele și finisajele interioare sunt curățate cu produse de calitate aerospațială.']
       ]

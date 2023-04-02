@@ -12,7 +12,7 @@ export const HeroText = () => {
       </div>
       <div className="text-hero">
         <p>
-          Detailing Auto Suceava a fost creat din pasiune pentru masini si prezentarea lor. A fost
+          Detailing Auto D&S a fost creat din pasiune pentru masini si prezentarea lor. A fost
           nascut sa rescrie cum proprietarii de masini ar trebui sa mentina prezenta masinilor
         </p>
       </div>
