@@ -6,7 +6,7 @@ import {
 } from "../subcomponents/subcomponents.styled";
 import { Link } from "@reach/router";
 import { ImageDespre } from "./1stComponent.styled";
-import despreImg from '../../data/images/poza1.jpeg'
+import despreImg from '../../data/images/polish-suceava.jpeg'
 
 const FirstComponent = () => {
   return (

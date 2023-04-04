@@ -1,5 +1,6 @@
 import React from 'react';
 import './hero-text.css';
+import { HeroTextCom } from './hero.styled';
 
 export const HeroText = () => {
   return (
@@ -11,10 +12,9 @@ export const HeroText = () => {
         <span className="title-hero">Colantare</span>
       </div>
       <div className="text-hero">
-        <p>
-          Detailing Auto D&S a fost creat din pasiune pentru masini si prezentarea lor. A fost
-          nascut sa rescrie cum proprietarii de masini ar trebui sa mentina prezenta masinilor
-        </p>
+        <HeroTextCom>
+          Detailing Auto D&S ofera clientilor servicii de intalta calitate in domeniul ingrijirii auto, folosind echipamente profesionale si solutii dedicate fiecarui tip de suprafete a automobilului, agreate de producatorii auto principali
+        </HeroTextCom>
       </div>
     </div>
   );

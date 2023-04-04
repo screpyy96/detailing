@@ -75,10 +75,10 @@ const Valorificare = ({ valorificare }) => {
 
   return (
     <div>
-      <Hero data="Valorificare |  D&S Suceava" image={image}/>
-      <BoxStyled sx={{ typography: 'body1' }} style={{transform: "translate(0, -2%)"}}>
+      <Hero data="Detailing |  D&S Suceava" image={image}/>
+      <BoxStyled sx={{ typography: 'body1' }} style={{transform: "translate(0, -2.7%)"}}>
         <TabContext value={value}>
-          <BoxStyled sx={{ borderBottom: 1, borderColor: 'divider' }}>
+          <BoxStyled sx={{ borderColor: 'divider' }}>
             {isMobile ? (
               <TabListStyle
                 className={classes.root}
@@ -91,7 +91,7 @@ const Valorificare = ({ valorificare }) => {
                 <TabStyle label="Level 2" value="2" />
                 <TabStyle label="Level 3" value="3" />
                 <TabStyle label="Level 4" value="4" />
-                <TabStyle label="Level 5" value="5" />
+                {/* <TabStyle label="Level 5" value="5" /> */}
                 {/* <TabStyle  label="Level 6" value="6" /> */}
               </TabListStyle>
             ) : (
@@ -106,7 +106,7 @@ const Valorificare = ({ valorificare }) => {
                 <TabStyle label="Level 2" value="2" />
                 <TabStyle label="Level 3" value="3" />
                 <TabStyle label="Level 4" value="4" />
-                <TabStyle label="Level 5" value="5" />
+                {/* <TabStyle label="Level 5" value="5" /> */}
                 {/* <TabStyle  label="Level 6" value="6" /> */}
               </TabListStyle>
             )}

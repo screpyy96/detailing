@@ -56,6 +56,15 @@ const LinkStyle = styled(Link)`
   width: 100%;
   list-style-type: none;
   color: black;
+  
+`;
+
+const LinkStyleNav = styled(Link)`
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  list-style-type: none;
+  color: black;
   @media screen and (max-width: 768px) {
     &:last-child {
       margin-bottom: 4rem;
@@ -152,5 +161,6 @@ export {
   LiStyle,
   AccordionWrapper,
   AccordionTitle,
-  DetailsAccordion
+  DetailsAccordion,
+  LinkStyleNav
 };

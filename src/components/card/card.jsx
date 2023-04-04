@@ -2,13 +2,13 @@ import React from 'react';
 import './card.css';
 import { cards } from '../../data/db';
 import { StyledImg } from './card.styled';
-import { LinkStyle } from '../navbar/navbar.style';
+import { LinkStyleNav } from '../navbar/navbar.style';
 
 export const Card = ({cardProps}) => {
   const {urlPath, frontImg, title, description} = cardProps;
 
   return (
-    <LinkStyle to={urlPath}>
+    <LinkStyleNav to={urlPath}>
       <div style={{ width: '100%' }}>
         <div className="card">
           <StyledImg key={frontImg} image={frontImg}>
@@ -21,7 +21,7 @@ export const Card = ({cardProps}) => {
           </StyledImg>
         </div>
       </div>
-    </LinkStyle>
+    </LinkStyleNav>
   );
 };
 

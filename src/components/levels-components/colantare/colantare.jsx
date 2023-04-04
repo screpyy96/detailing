@@ -1,5 +1,5 @@
 import Hero from "../../subcomponents/hero/hero";
-import image from "../../../data/images/poza-colantare.webp";
+import image from "../../../data/images/colant-suceava.jpeg";
 import {
   SecondHalf,
   Title,

@@ -5,10 +5,10 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 import './carousel.css';
-import poza2 from '../../data/images/poza2.webp';
-import poza1 from '../../data/images/poza-colantare.webp';
-import poza3 from '../../data/images/poza1.jpeg';
-import poza4 from '../../data/images/cammaro.jpeg';
+import poza2 from '../../data/images/mercedes.jpeg';
+import poza4 from '../../data/images/porche.jpeg';
+import poza3 from '../../data/images/benz.jpeg';
+import poza1 from '../../data/images/camaro.jpeg';
 
 const poze = [poza1, poza2, poza3, poza4];
 const Carousele = () => {

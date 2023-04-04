@@ -40,7 +40,7 @@ const ProtejareComponent = ({ data }) => {
       </PC.ContainerWrapper>
       {/* <Hero  image={image} /> */}
  
-        <Grid container spacing={2} style={{  width: "100%", margin: "0 auto", background: "#f4f4f4", padding: "3rem"}}>
+        <Grid container spacing={2} style={{  width: "100%", margin: "0 auto", background: "#f4f4f4", padding: "1rem"}}>
           {/* left side text */}
           <PC.PpfContainer>
             <Grid item xs={12} sm={6} style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>

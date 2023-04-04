@@ -11,21 +11,21 @@ export const protejare = [
     button: 'Book your appointment',
     dots: [
       {
-        top: '11',
+        top: '13',
         left: '41',
         mobileTop: '310',
         mobileLeft: '320',
         text: 'Unele companii nu protejează farurile, însă credem că este esențial. Singura modalitate de a repara un far ciobit în multe cazuri este înlocuirea acestuia și este o piesă scumpă!'
       },
       {
-        top: '11',
+        top: '12',
         left: '28',
         mobileTop: '300',
         mobileLeft: '210',
         text: 'Oglinzile laterale sunt chiar în linia de tragere a pietrelor, a gardurilor vii și chiar a altor mașini. PPF-ul nostru protejează eficient mașina de acest lucru.'
       },
       {
-        top: '14.5',
+        top: '16.5',
         left: '44',
         mobileTop: '370',
         mobileLeft: '350',

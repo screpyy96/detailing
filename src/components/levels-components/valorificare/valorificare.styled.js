@@ -34,9 +34,9 @@ export const BoxStyled = styled(Box)`
 export const ContainerWrapper = styled.div`
   display: grid;
   background: white;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
-  padding:2rem 0;
+  grid-template-columns: 40% 60%;
+  grid-gap: 1rem;
+  padding:1rem;
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
   }
@@ -54,22 +54,28 @@ export const TitleStyle = styled.h2`
   color: #ec1d24;
   font-size: 39px;
   text-align: left;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 `;
 export const SubTitle = styled.h3`
   color: #ea1d22;
-  padding: 1rem 0;
+  // padding: 1rem 0;
   font-size: 20px;
   color: #ec1d24;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
 `;
 export const ListContainer = styled.div`
   /* background-color: red; */
 `;
 
 export const ImageComponent = styled.img`
+height: 100%;
+width: 70%;
+margin: 0 auto;
+border-radius: 10px;
   @media screen and (max-width: 768px) {
     width: 100%;
-    height: 300px;
+    height: auto;
   }
 `;
 

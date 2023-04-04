@@ -162,7 +162,7 @@ export const PpfContainer = styled.div`
 
 export const ImagePff = styled.img`
  width: 50%; 
-  height: 50%; 
+  height: 70%; 
 margin: auto;
   `
 
