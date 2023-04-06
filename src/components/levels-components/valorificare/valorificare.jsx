@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme) => ({
         transform: "perspective(100px) rotateX(30deg)",
         backgroundColor: "#e6e4e4",
         [theme.breakpoints.down("xs")]: {
-          transform: "perspective(0) rotateX(0)",
+          transform: "perspective(30px) rotateX(10deg)",
+          borderRadius: "4px 4px 1px 0",
         },
   
         "&:first-child": {

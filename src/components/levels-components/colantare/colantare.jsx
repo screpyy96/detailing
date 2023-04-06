@@ -12,8 +12,9 @@ import { Link } from "@reach/router";
 import { ImageColantare, ColantareWrapper, TextWrapper, Spliter } from "./colantare.styled";
 import ImageSlider from "../image-slider/image-slider";
 import { SliderContainer, SpanBlock } from "../image-slider/image-slider.styled";
-import Banner from "../../banner-social/banner";
+// import Banner from "../../banner-social/banner";
 import Directie from "../../directii/directie";
+import Banner2 from "./banner2";
 
 const TextComponent = () => {
   return (
@@ -27,7 +28,7 @@ const Colantare = () => {
   return (
     <>
       <Hero
-        data="D&S - Colantare Auto"
+        data="D&S - Colantari Auto"
         image={
           "https://i.shgcdn.com/c6fb8f43-a342-40f3-afb7-69c482940d74/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
         }
@@ -85,10 +86,8 @@ const Colantare = () => {
         <ImageSlider />
         <SpanBlock />
       </SliderContainer>
-      {/* Only visible on desktop */}
-
-      <Spliter/>
-      <Banner />
+  
+      <Banner2 />
       <Directie />
     </>
   );

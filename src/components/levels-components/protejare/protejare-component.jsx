@@ -43,7 +43,7 @@ const ProtejareComponent = ({ data }) => {
         <Grid container spacing={2} style={{  width: "100%", margin: "0 auto", background: "#f4f4f4", padding: "1rem"}}>
           {/* left side text */}
           <PC.PpfContainer>
-            <Grid item xs={12} sm={6} style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>
+            <Grid item xs={12} sm={6} style={{display: "flex", justifyContent:"flex-start", alignItems: "center", flexDirection: "column"}}>
               <Typography variant="h4" style={{ color: "red", paddingBottom: "1rem" }}>{data.contentTitle}</Typography>
               <Typography variant="body1" style={{ paddingBottom: "1rem" }} >{data.desc1}</Typography>
               <Typography variant="body1" style={{ paddingBottom: "1rem" }} >{data.desc2}</Typography>

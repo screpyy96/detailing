@@ -17,35 +17,18 @@ const BannerWrapper = styled(Box)`
     justify-content: center;
     align-items: center;
     z-index: 999999;
-    position: relative;
-    // bottom: -80px;
+    position: relative; 
     left: 0;
     @media screen and (max-width: 768px){
     height: 100px;
     position: relative;
-    bottom: 0;
+    bottom: 32px;
     left: 0;
 }
 `;
-// const BannerWrapper2 = styled(Box)`
-//     height: 200px;
-//     background: rgb(244, 244, 244);
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     z-index: 999999;
-//     position: relative;
-//     // bottom: -80px;
-//     left: 0;
-//     @media screen and (max-width: 768px){
-//     height: 100px;
-//     position: relative;
-//     bottom: 86px;
-//     left: 0;
-// }
-// `;
 
-const Banner = () => {
+
+const Banner2 = () => {
   const classes = useStyles();
 
   return (
@@ -57,4 +40,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Banner2;

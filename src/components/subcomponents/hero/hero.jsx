@@ -21,11 +21,11 @@ const BoxWrapper = styled(Box)`
   background-image: url(${(props) => props.image});
   background-size: cover;
   background-position: center;
-  height: 30vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   && {@media screen and (max-width: 765px) {
-    height: 50vh;
+    height: 30vh;
   }}
 `;
 

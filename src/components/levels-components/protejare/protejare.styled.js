@@ -147,7 +147,7 @@ export const ButtonsWhite = styled.button`
 export const PpfContainer = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  gap: 2rem;
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -155,15 +155,16 @@ export const PpfContainer = styled.div`
 
     & img {
       width: 100%;
-      transform: translate(0, 0);
+      // transform: translate(0, 0);
+      height: 100%;
     }
   }
   `
 
 export const ImagePff = styled.img`
- width: 50%; 
-  height: 70%; 
-margin: auto;
+ width: 100%; 
+  height: 80%; 
+// margin: auto;
   `
 
 export const MapsContainer = styled.div`
@@ -174,7 +175,7 @@ export const MapsContainer = styled.div`
   display: flex;
 flex-direction: column;
 padding: 0;
-transform: translate(0, -10%);
+// transform: translate(0, 10%);
  }
   `
 
