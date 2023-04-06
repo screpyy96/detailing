@@ -7,7 +7,7 @@ export const cards = [
     urlPath: '/detailing'
   },
   {
-    title: 'Protejare',
+    title: 'Folie de Protectie',
     frontImg: "https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/337088670_611461334175066_5576812507374162170_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=4hNk5gsY8y8AX_kDoVU&_nc_ht=scontent.fias1-1.fna&oh=03_AdRX2RjwMbZsUq-ckfnupG4oWnn0PFbrOQRBja5iEgL-Qg&oe=64463AD1",
     description:"Pentru ca vrei sa iti protejezi investitia",
     backImg: '',

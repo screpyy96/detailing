@@ -95,7 +95,7 @@ function DrawerComponent() {
                   <LinkStyle to="/detailing">Detailing</LinkStyle>
                 </MenuItem>
                 <MenuItem onClick={() => setOpenDrawer(false)}>
-                  <LinkStyle to="/protejare">Protejare</LinkStyle>
+                  <LinkStyle to="/protejare">Folie PPF</LinkStyle>
                 </MenuItem>
                 <MenuItem onClick={() => setOpenDrawer(false)}>
                   <LinkStyle to="/intretinere">Intretinere</LinkStyle>

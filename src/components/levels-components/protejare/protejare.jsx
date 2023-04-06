@@ -72,7 +72,7 @@ const Protejare = ({ protejare }) => {
   };
   return (
     <div>
-      <Hero data="Protejare" image={image} />
+      <Hero data="Folie de Protectie PPF" image={image} />
       <BoxStyled sx={{ typography: "body1" }}>
         <TabContext value={value}>
           {isMobile ? (

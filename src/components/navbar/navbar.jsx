@@ -156,7 +156,7 @@ const Navbar = () => {
                           <LinkStyle to="/detailing">Detailing</LinkStyle>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
-                          <LinkStyle to="/protejare">Protejare</LinkStyle>
+                          <LinkStyle to="/protejare">Folie PPF</LinkStyle>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
                           <LinkStyle to="/intretinere">Intretinere</LinkStyle>

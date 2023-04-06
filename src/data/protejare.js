@@ -102,7 +102,7 @@ export const protejare = [
         text: 'Mașinile mai vechi, în special cele care sunt construite manual, tind să fie complet unice, fără două exemple identice. În plus, ele tind să nu fie simetrice. Nu tăiem PPF pe mașină, așa că trebuie să proiectăm fiecare secțiune pentru a se potrivi de la zero. Acesta este singurul mod de a vă proteja corespunzător mașina dvs. unică sau clasică.'
       }
     ],
-    contentTitle: '/ Ce este Paint Protection Film?',
+    contentTitle: '/ Ce este Folia de Protectie(PPF)?',
     desc1: "Folia de protectie a vopselei sau PPF a fost inițial conceputa și dezvoltata initial de către Armata SUA ca o modalitate de a proteja rotoarele elicopterelor și altor parti sensibile de resturi si alte intruziuni.",
 
     desc2: "Ca si in cazul altor aplicatii moderne, ceea ce a inceput ca tehnologie militara si-a gasit in cele din urma drum in sectorul comercial si de-alungul mai multor decenii s-a dezvoltat in diferite produse pentru protectia masinilor, telefoanelor si a altor suprafete sensibile",
