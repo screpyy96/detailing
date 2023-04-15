@@ -22,7 +22,7 @@ export const cards = [
   },
   {
     title: 'Colantare',
-    frontImg: "https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/309591695_514535394009710_1120992018601681218_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=eS-DSd8VARsAX9nUB1z&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfD1pylDy1Jwue3YY22roA-ISiUpifYtSxF9hl6nMgZamw&oe=6430A34A",
+    frontImg: "https://detailingsuceava.com/static/media/colant-suceava.666bcfebb0b6998e6511.jpeg",
     description:"Pentru ca vrei sa fi diferit",
     backImg: '',
     urlPath: '/colantare'
@@ -54,7 +54,7 @@ export const valorificare = [
     title: 'Nivel 1 - Quick',
     subTitle: 'Exterior',
 
-    imgPath:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/309862279_514535697343013_692312325211629166_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9VfVjox0ITcAX82rXK5&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfA3_gaqM6GQzdC6sr-E_vdvPPHStAnLqrEIJ3-tU7aR-g&oe=64315698",
+    imgPath:"https://previews.dropbox.com/p/thumb/AB34w0V94sQyY1TP5O7BYHGw8wY9kLFhgTaX_MBJB9CcqqUubWGxZZwanHAdgQ_WtaRmIiJWL-kh1VwgkV-jNidYjiRl3gXYVjv--SIfjj2cMcbPkIr87dy06GCwjPiVC-Lh6wh11bS0mok-2NegUv4D0ZldTJ92fN7GlT2HAXpYMZQpM0DvyXEPZjh_fc9CN44BswRTg-rk0l52rm914xLkAkkmBp2pNQxXW1AhRtL49Uq3DMgScW5T8nyw5WHRuRv5_7ioKCrqTewFVfNjGuZfpp0aupuUbIs0k5oIKEhsi-JjBCtaRStvhZSJVnfqfJv3OXezys9-EZHpGOfwZBiQlDY2soKZdyz7ts9JPtWAGoo0v7o_6YZNAstpQ2wAFL8/p.jpeg",
 
     description: [
       ['Spălarea mașinii prin metoda “2BM”.'
@@ -111,7 +111,7 @@ export const valorificare = [
     title: 'Nivel 3 - ..',
     subTitle: 'Exterior',
 
-    imgPath:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/298071253_5280983122009409_1067527261170148692_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=UqmZexlXKo0AX9Y6LPD&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfBBR7W4ckxiQtwccL7zq9idR2XnvP2D8qJ_ubxBTemT7g&oe=6430BDD0",
+    imgPath:"https://previews.dropbox.com/p/thumb/AB3ZzOmeahvEnh4qQkEo2cyGRPxDWA56x36xWXAdYb4_nJlth4ZEyukl-Zv65RJXrkZh8HV_3zjXRxeJtEUjyVq92mz12it4xMkbUALqFWr2PdsCb2xinX_A3HpdFmtQhY_Cxko_IQdgCQeKXvIFdstnU4TG-jOUbaRnIb0wusOnyhSfn1Gt5mcE6AJuKMHAW1OM-CkiXizeynhkF6fnTODNW3fMcaygDvgDGeAokwsrTqzYVKu1LffUFnBDlpQcycdurQL-_jgzmKnTgcguL6v1litiRQUQMCK8Fb5a69shErQj9oyVSfaSbMbdQf60du_jYHOPuLmiu21to2b4Bku-QR-PjJ0aScGHS9AnrEBJVFT139p0W4zFTtsOJHT0QHo/p.jpeg",
     include: "Include în plus fata de nivel 2",
     description: [
       [' Curatare contra aripi.'
