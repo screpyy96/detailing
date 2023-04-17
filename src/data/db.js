@@ -54,7 +54,7 @@ export const valorificare = [
     title: 'Nivel 1 - Quick',
     subTitle: 'Exterior',
 
-    imgPath:"https://previews.dropbox.com/p/thumb/AB34w0V94sQyY1TP5O7BYHGw8wY9kLFhgTaX_MBJB9CcqqUubWGxZZwanHAdgQ_WtaRmIiJWL-kh1VwgkV-jNidYjiRl3gXYVjv--SIfjj2cMcbPkIr87dy06GCwjPiVC-Lh6wh11bS0mok-2NegUv4D0ZldTJ92fN7GlT2HAXpYMZQpM0DvyXEPZjh_fc9CN44BswRTg-rk0l52rm914xLkAkkmBp2pNQxXW1AhRtL49Uq3DMgScW5T8nyw5WHRuRv5_7ioKCrqTewFVfNjGuZfpp0aupuUbIs0k5oIKEhsi-JjBCtaRStvhZSJVnfqfJv3OXezys9-EZHpGOfwZBiQlDY2soKZdyz7ts9JPtWAGoo0v7o_6YZNAstpQ2wAFL8/p.jpeg",
+    imgPath:"https://scontent-fra5-2.xx.fbcdn.net/v/t1.15752-9/339476701_192199436937159_7532433699626523435_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=JwDIhfEz3voAX_RBfb4&_nc_ht=scontent-fra5-2.xx&oh=03_AdQfMmuossjq3WG6yn659KOORYOrjZYfRufjzFnuUEjcNA&oe=6464D0C6",
 
     description: [
       ['Spălarea mașinii prin metoda “2BM”.'
@@ -111,7 +111,7 @@ export const valorificare = [
     title: 'Nivel 3 - ..',
     subTitle: 'Exterior',
 
-    imgPath:"https://previews.dropbox.com/p/thumb/AB3ZzOmeahvEnh4qQkEo2cyGRPxDWA56x36xWXAdYb4_nJlth4ZEyukl-Zv65RJXrkZh8HV_3zjXRxeJtEUjyVq92mz12it4xMkbUALqFWr2PdsCb2xinX_A3HpdFmtQhY_Cxko_IQdgCQeKXvIFdstnU4TG-jOUbaRnIb0wusOnyhSfn1Gt5mcE6AJuKMHAW1OM-CkiXizeynhkF6fnTODNW3fMcaygDvgDGeAokwsrTqzYVKu1LffUFnBDlpQcycdurQL-_jgzmKnTgcguL6v1litiRQUQMCK8Fb5a69shErQj9oyVSfaSbMbdQf60du_jYHOPuLmiu21to2b4Bku-QR-PjJ0aScGHS9AnrEBJVFT139p0W4zFTtsOJHT0QHo/p.jpeg",
+    imgPath:"https://scontent-fra5-2.xx.fbcdn.net/v/t1.15752-9/339625152_749416593591536_5143843330809165874_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=eWoYo-5bFREAX_FJWFt&_nc_ht=scontent-fra5-2.xx&oh=03_AdSK1zB8hf33IlNQcY-P2JUWXea_k0QniQm2l29tsaFdlw&oe=6464E576",
     include: "Include în plus fata de nivel 2",
     description: [
       [' Curatare contra aripi.'
