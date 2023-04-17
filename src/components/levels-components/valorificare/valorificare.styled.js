@@ -34,8 +34,8 @@ export const BoxStyled = styled(Box)`
 export const ContainerWrapper = styled.div`
   display: grid;
   background: white;
-  grid-template-columns: 40% 60%;
-  grid-gap: 1rem;
+  grid-template-columns: 40% 55%;
+  grid-gap: 2rem;
   padding:1rem;
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -70,7 +70,7 @@ export const ListContainer = styled.div`
 
 export const ImageComponent = styled.img`
 height: 100%;
-width: 70%;
+width: 100%;
 margin: 0 auto;
 border-radius: 10px;
   @media screen and (max-width: 768px) {
