@@ -138,7 +138,7 @@ export const valorificare = [
     title: 'Nivel 4 - ..',
     subTitle: 'Exterior',
 
-    imgPath: "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-6/323406919_1577940072668981_7169729459474950045_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=VBSpOU6u7fMAX_J0BGn&_nc_ht=scontent-fra5-2.xx&oh=00_AfABWFXqnsOAUVMl38yXwu5t4FX0zZrcXuCWDai_Brb2mw&oe=6448546E",
+    imgPath: "https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/339904714_233559162526202_4510602138899479326_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=G-2Svs8ZAK4AX-BXNP4&_nc_ht=scontent-frt3-2.xx&oh=00_AfBxnovjy0Jpf8KB5W4jUfaB0xZcFvKS_tleqMuSx9T83g&oe=644F4A2C",
     include: "Include în plus fata de nivel 3",
     description: [
       ['Detailing balamale uși'
