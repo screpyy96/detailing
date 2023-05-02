@@ -1,21 +1,21 @@
 export const cards = [
   { 
     title: 'Detailing',
-    frontImg:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t1.15752-9/334068673_167226875785444_1022728927278965245_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lEC1B9MiSjIAX-L1ka8&_nc_ht=scontent.fbcm1-1.fna&oh=03_AdQcUJ8xK0JpykXzKbvYAYn-h2wtmnnKfkA1g-nLcqUVIg&oe=643FC393",
+    frontImg:"https://scontent-muc2-1.xx.fbcdn.net/v/t39.30808-6/339904714_233559162526202_4510602138899479326_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=MaITw-R_cwUAX9aWozf&_nc_ht=scontent-muc2-1.xx&oh=00_AfBzp0c3u1VdIWQe9b4GjHJXGPcp-N73hjggYr77QY-OsA&oe=6457332C",
     description: "Pentru ca vrei ce este mai bun pentru masina ta!",
     backImg: '',
     urlPath: '/detailing'
   },
   {
     title: 'Folie de Protectie',
-    frontImg: "https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/337088670_611461334175066_5576812507374162170_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=4hNk5gsY8y8AX_kDoVU&_nc_ht=scontent.fias1-1.fna&oh=03_AdRX2RjwMbZsUq-ckfnupG4oWnn0PFbrOQRBja5iEgL-Qg&oe=64463AD1",
+    frontImg: "https://scontent-muc2-1.xx.fbcdn.net/v/t39.30808-6/308477372_511785387618044_8307739387292051110_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Y-R6nyx1NOwAX-FUGTF&_nc_oc=AQmDrgC-xeRBChLzDmRlC6FvUHgbrnslfucr2Xc4eomU23iMDlxM0VOBxnIOmbEudQ4&_nc_ht=scontent-muc2-1.xx&oh=00_AfCmoxC2Hd4x1JEdyXLjnGBSOeWNHpVCP5oANbt3AhH8xA&oe=6455C94A",
     description:"Pentru ca vrei sa iti protejezi investitia",
     backImg: '',
     urlPath: '/protejare'
   },
   {
     title: 'Intretinere',
-    frontImg:"https://scontent.fias1-1.fna.fbcdn.net/v/t1.15752-9/336620624_3374390036212244_4058104756518523851_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=sxMY8Fn4tHgAX8tsVXh&_nc_ht=scontent.fias1-1.fna&oh=03_AdRrV8-nky-vMJMqHRLxtO4MZ3GNuE1g3Q7Y5LWD8ULJqw&oe=64462041",
+    frontImg:"https://scontent-muc2-1.xx.fbcdn.net/v/t39.30808-6/309066381_514535937342989_5143582271615558439_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Pl_Y465A4EsAX9wHF4D&_nc_ht=scontent-muc2-1.xx&oh=00_AfA1RJfDqj2hc1D2EQFC-usyRhukWbECwLYCCkL0NKST_Q&oe=64559948",
     description:"Pentru ca iti pasa de masina ta",
     backImg: '',
     urlPath: '/intretinere'
