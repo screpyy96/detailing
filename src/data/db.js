@@ -1,21 +1,21 @@
 export const cards = [
   { 
     title: 'Detailing',
-    frontImg:"https://scontent-muc2-1.xx.fbcdn.net/v/t39.30808-6/339904714_233559162526202_4510602138899479326_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=MaITw-R_cwUAX9aWozf&_nc_ht=scontent-muc2-1.xx&oh=00_AfBzp0c3u1VdIWQe9b4GjHJXGPcp-N73hjggYr77QY-OsA&oe=6457332C",
+    frontImg:"https://i.ibb.co/GWz9Mrq/image.jpg",
     description: "Pentru ca vrei ce este mai bun pentru masina ta!",
     backImg: '',
     urlPath: '/detailing'
   },
   {
     title: 'Folie de Protectie',
-    frontImg: "https://scontent-muc2-1.xx.fbcdn.net/v/t39.30808-6/308477372_511785387618044_8307739387292051110_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Y-R6nyx1NOwAX-FUGTF&_nc_oc=AQmDrgC-xeRBChLzDmRlC6FvUHgbrnslfucr2Xc4eomU23iMDlxM0VOBxnIOmbEudQ4&_nc_ht=scontent-muc2-1.xx&oh=00_AfCmoxC2Hd4x1JEdyXLjnGBSOeWNHpVCP5oANbt3AhH8xA&oe=6455C94A",
+    frontImg: "https://i.ibb.co/ScpkD6z/foliew.jpg",
     description:"Pentru ca vrei sa iti protejezi investitia",
     backImg: '',
     urlPath: '/protejare'
   },
   {
     title: 'Intretinere',
-    frontImg:"https://scontent-muc2-1.xx.fbcdn.net/v/t39.30808-6/309066381_514535937342989_5143582271615558439_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Pl_Y465A4EsAX9wHF4D&_nc_ht=scontent-muc2-1.xx&oh=00_AfA1RJfDqj2hc1D2EQFC-usyRhukWbECwLYCCkL0NKST_Q&oe=64559948",
+    frontImg:"https://i.ibb.co/6n7sQ3f/intretinere.jpg",
     description:"Pentru ca iti pasa de masina ta",
     backImg: '',
     urlPath: '/intretinere'
@@ -54,7 +54,7 @@ export const valorificare = [
     title: 'Nivel 1 - Quick',
     subTitle: 'Exterior',
 
-    imgPath:"https://scontent-fra5-2.xx.fbcdn.net/v/t1.15752-9/339476701_192199436937159_7532433699626523435_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=JwDIhfEz3voAX_RBfb4&_nc_ht=scontent-fra5-2.xx&oh=03_AdQfMmuossjq3WG6yn659KOORYOrjZYfRufjzFnuUEjcNA&oe=6464D0C6",
+    imgPath:"https://i.ibb.co/qDyS2LH/det.jpg",
 
     description: [
       ['Spălarea mașinii prin metoda “2BM”.'
@@ -85,7 +85,7 @@ export const valorificare = [
     title: 'Nivel 2 - ..',
     subTitle: 'Exterior',
 
-    imgPath:"https://scontent.fbcm1-1.fna.fbcdn.net/v/t1.15752-9/337053298_587023720157769_2077154612322047205_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=nxtajwDdx7MAX_Cf4hT&_nc_ht=scontent.fbcm1-1.fna&oh=03_AdRr1_jiV_TiT236mJKOkRHjNBW634XHXiDwFbweGoeWGA&oe=6453AB9E",
+    imgPath:"https://i.ibb.co/3pgqvxx/s.jpg",
     include: "Include în plus fata de nivel 1",
     description: [
       ['Se efectuează corecție lac în 2 pași(sunt eliminate imprefectiunile fine cum ar fi “pânză de păianjen”).'
@@ -111,7 +111,7 @@ export const valorificare = [
     title: 'Nivel 3 - ..',
     subTitle: 'Exterior',
 
-    imgPath:"https://scontent-fra5-2.xx.fbcdn.net/v/t1.15752-9/339625152_749416593591536_5143843330809165874_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=eWoYo-5bFREAX_FJWFt&_nc_ht=scontent-fra5-2.xx&oh=03_AdSK1zB8hf33IlNQcY-P2JUWXea_k0QniQm2l29tsaFdlw&oe=6464E576",
+    imgPath:"https://i.ibb.co/sgV3X4w/s2.jpg",
     include: "Include în plus fata de nivel 2",
     description: [
       [' Curatare contra aripi.'
@@ -138,7 +138,7 @@ export const valorificare = [
     title: 'Nivel 4 - ..',
     subTitle: 'Exterior',
 
-    imgPath: "https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/339904714_233559162526202_4510602138899479326_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=G-2Svs8ZAK4AX-BXNP4&_nc_ht=scontent-frt3-2.xx&oh=00_AfBxnovjy0Jpf8KB5W4jUfaB0xZcFvKS_tleqMuSx9T83g&oe=644F4A2C",
+    imgPath: "https://i.ibb.co/Rh28H3T/s3.jpg",
     include: "Include în plus fata de nivel 3",
     description: [
       ['Detailing balamale uși'
